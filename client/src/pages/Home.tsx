@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { frContent } from "@/lib/data";
+import beaverLogo from "@assets/beaver.png";
 
 export default function Home() {
   return (
@@ -9,13 +10,20 @@ export default function Home() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex justify-between items-center">
             {/* Logo and Title */}
-            <div>
-              <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
-                <span className="text-[#0d6efd]">{frContent.header.title.firstName}</span>{" "}
-                <span className="text-[#f89422]">{frContent.header.title.lastName}</span>
-              </h1>
-              <p className="text-[#f89422] text-xl">{frContent.header.title.group}</p>
-              <p className="text-[#f89422] text-lg">{frContent.header.title.groupEn}</p>
+            <div className="flex items-center">
+              <img 
+                src={beaverLogo} 
+                alt="Beaver Logo" 
+                className="h-16 w-16 mr-3"
+              />
+              <div>
+                <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
+                  <span className="text-[#0d6efd]">{frContent.header.title.firstName}</span>{" "}
+                  <span className="text-[#f89422]">{frContent.header.title.lastName}</span>
+                </h1>
+                <p className="text-[#f89422] text-xl">{frContent.header.title.group}</p>
+                <p className="text-[#f89422] text-lg">{frContent.header.title.groupEn}</p>
+              </div>
             </div>
 
             {/* Language Toggle Only */}
@@ -147,11 +155,18 @@ export default function Home() {
       <footer className="bg-black py-12 border-t border-[#f89422]">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            {/* Contact Info Only */}
+            {/* Contact Info with Logo */}
             <div id="contact">
-              <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                {frContent.footer.contact.title}
-              </h3>
+              <div className="flex items-center justify-center mb-4">
+                <img 
+                  src={beaverLogo} 
+                  alt="Beaver Logo" 
+                  className="h-12 w-12 mr-3"
+                />
+                <h3 className="font-['Montserrat'] font-bold text-xl text-[#f89422]">
+                  {frContent.footer.contact.title}
+                </h3>
+              </div>
               <address className="not-italic text-[#f89422]">
                 {frContent.footer.contact.address.map((line, index) => (
                   <p key={index} className="mb-2">{line}</p>
