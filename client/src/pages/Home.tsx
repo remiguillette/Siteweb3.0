@@ -35,6 +35,7 @@ export default function Home() {
             >
               {frContent.header.languageToggle}
             </Link>
+            <span className="text-[#f89422] mr-4 font-bold">Fier de l'Ontario / Proud of Ontario</span>
           </div>
         </div>
       </header>
