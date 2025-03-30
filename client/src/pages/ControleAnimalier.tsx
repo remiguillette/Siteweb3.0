@@ -44,7 +44,42 @@ export default function ControleAnimalier() {
               <span className="text-[#f89422]">Nos services</span>
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-paw text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Gestion des animaux errants
+                </h3>
+                <p className="text-[#f89422]">
+                  Capture et relocalisation humaine des animaux errants ou abandonnés.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-exclamation-triangle text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Interventions d'urgence
+                </h3>
+                <p className="text-[#f89422]">
+                  Réponse rapide aux situations impliquant des animaux dangereux ou en détresse.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-balance-scale text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Enquêtes sur la maltraitance
+                </h3>
+                <p className="text-[#f89422]">
+                  Investigation des signalements de négligence ou de maltraitance animale.
+                </p>
+              </div>
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
                   <i className="fas fa-paw text-[#f89422] text-2xl"></i>
