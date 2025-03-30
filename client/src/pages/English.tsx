@@ -29,11 +29,12 @@ export default function English() {
             </div>
 
             {/* Language Toggle Only */}
-            <span className="text-[#f89422] mr-2 font-bold">Fier de l'Ontario / Proud of Ontario</span>
-            <Link 
-              href="/"
-              className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-            >
+            <div className="flex items-center">
+              <span className="text-[#f89422] mr-4 font-bold">Fier de l'Ontario / Proud of Ontario</span>
+              <Link 
+                href="/"
+                className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
+              >
               {enContent.header.languageToggle}
             </Link>
           </div>
