@@ -51,16 +51,15 @@ export const Footer: React.FC<FooterProps> = ({ content, showLogo = false }) => 
               style={{ objectFit: "contain" }}
             />
             <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
-              {content.company.name.firstName}
+              Rémi Guillette
             </h3>
             <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
-              {content.company.name.lastName}
+              Groupe
             </h3>
             <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
-              {content.company.name.group}
+              Group
             </h3>
-            <p className="text-[#f89422] mb-4 text-center">{content.company.description}</p>
-            <a href="/politique" className="text-[#f89422] hover:text-white transition-colors">
+            <a href="/politique" className="text-[#f89422] hover:text-white transition-colors mt-4">
               Politique de confidentialité
             </a>
           </div>
