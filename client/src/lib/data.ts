@@ -84,19 +84,19 @@ export const frContent = {
     title: "Nos services",
     services: [
       {
-        icon: "fas fa-briefcase",
-        title: "Conseil stratégique",
-        description: "Accompagnement personnalisé pour développer et optimiser votre stratégie d'entreprise selon vos objectifs spécifiques."
+        icon: "fas fa-handshake",
+        title: "Services d'intégration",
+        description: "Aide aux nouveaux arrivants francophones pour leur intégration dans la communauté."
       },
       {
-        icon: "fas fa-chart-pie",
-        title: "Gestion de projets",
-        description: "Coordination efficace de vos projets d'entreprise, de la phase initiale jusqu'à la réalisation complète."
+        icon: "fas fa-heart",
+        title: "Soutien communautaire",
+        description: "Services d'aide sociale, programmes de mentorat et initiatives de développement communautaire."
       },
       {
-        icon: "fas fa-shield-alt",
-        title: "Sécurité et conformité",
-        description: "Solutions pour garantir la conformité réglementaire et la sécurité des données de votre entreprise."
+        icon: "fas fa-user-friends",
+        title: "Services aux personnes avancées en âge",
+        description: "Programmes adaptés et soutien personnalisé pour les membres francophones avancés en âge de notre communauté."
       }
     ]
   },
