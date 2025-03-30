@@ -33,37 +33,28 @@ export default function Home() {
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="z-10">
-                <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
-                  <span className="text-[#0d6efd]">{frContent.hero.title.part1}</span>{" "}
-                  <span className="text-[#f89422]">{frContent.hero.title.part2}</span>{" "}
-                  <span className="text-[#f89422]">{frContent.hero.title.part3}</span>
-                </h2>
-                <p className="text-[#f89422] text-lg mb-8">
-                  {frContent.hero.description}
-                </p>
-                <div className="flex flex-wrap gap-4">
-                  <a 
-                    href={frContent.hero.buttons.primary.href} 
-                    className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                  >
-                    {frContent.hero.buttons.primary.label}
-                  </a>
-                  <a 
-                    href={frContent.hero.buttons.secondary.href} 
-                    className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                  >
-                    {frContent.hero.buttons.secondary.label}
-                  </a>
-                </div>
-              </div>
-              <div className="relative">
-                <img 
-                  src={frContent.hero.image.src} 
-                  alt={frContent.hero.image.alt} 
-                  className="rounded-lg shadow-2xl w-full"
-                />
+            <div className="flex flex-col items-center text-center">
+              <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
+                <span className="text-[#0d6efd]">{frContent.hero.title.part1}</span>{" "}
+                <span className="text-[#f89422]">{frContent.hero.title.part2}</span>{" "}
+                <span className="text-[#f89422]">{frContent.hero.title.part3}</span>
+              </h2>
+              <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
+                {frContent.hero.description}
+              </p>
+              <div className="flex flex-wrap gap-4 justify-center">
+                <a 
+                  href={frContent.hero.buttons.primary.href} 
+                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
+                >
+                  {frContent.hero.buttons.primary.label}
+                </a>
+                <a 
+                  href={frContent.hero.buttons.secondary.href} 
+                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
+                >
+                  {frContent.hero.buttons.secondary.label}
+                </a>
               </div>
             </div>
           </div>
@@ -123,48 +114,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black py-12 border-t border-[#f89422]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Company Info */}
-            <div className="md:col-span-1 text-center md:text-left">
-              <h3 className="font-['Montserrat'] font-bold text-xl mb-4">
-                <span className="text-[#0d6efd]">{frContent.footer.company.name.firstName}</span>{" "}
-                <span className="text-[#f89422]">{frContent.footer.company.name.lastName}</span>{" "}
-                <span className="text-[#f89422]">{frContent.footer.company.name.group}</span>
-              </h3>
-              <p className="text-[#f89422] mb-4">
-                {frContent.footer.company.description}
-              </p>
-              <div className="flex justify-center md:justify-start space-x-4">
-                <a href={frContent.footer.company.socialMedia.facebook} className="text-[#f89422] hover:text-[#0d6efd] transition">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href={frContent.footer.company.socialMedia.twitter} className="text-[#f89422] hover:text-[#0d6efd] transition">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href={frContent.footer.company.socialMedia.linkedin} className="text-[#f89422] hover:text-[#0d6efd] transition">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </div>
-            
-            {/* Quick Links */}
-            <div className="md:col-span-1 text-center">
-              <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                {frContent.footer.quickLinks.title}
-              </h3>
-              <ul className="space-y-2">
-                {frContent.footer.quickLinks.links.map((link, index) => (
-                  <li key={index}>
-                    <a href={link.href} className="text-[#f89422] hover:text-[#0d6efd] transition">
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-            {/* Contact Info */}
-            <div id="contact" className="md:col-span-1 text-center md:text-right">
+          <div className="text-center">
+            {/* Contact Info Only */}
+            <div id="contact">
               <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                 {frContent.footer.contact.title}
               </h3>
@@ -182,12 +134,6 @@ export default function Home() {
                 </p>
               </address>
             </div>
-          </div>
-          
-          <div className="border-t border-[#f89422] mt-10 pt-6 text-center">
-            <p className="text-[#f89422]">
-              &copy; {new Date().getFullYear()} {frContent.footer.copyright}
-            </p>
           </div>
         </div>
       </footer>
