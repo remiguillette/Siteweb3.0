@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { enContent } from "@/lib/data";
 import beaverLogo from "@assets/beaver.png";
+import Footer from "@/components/Footer";
 
 export default function English() {
   return (
