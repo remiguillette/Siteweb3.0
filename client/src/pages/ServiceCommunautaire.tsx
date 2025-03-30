@@ -48,30 +48,6 @@ export default function ServiceCommunautaire() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-book-open text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Programmes éducatifs
-                </h3>
-                <p className="text-[#f89422]">
-                  Cours de français, clubs de lecture et ateliers éducatifs pour tous les âges.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-theater-masks text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Événements culturels
-                </h3>
-                <p className="text-[#f89422]">
-                  Festivals, concerts, pièces de théâtre et expositions artistiques célébrant la culture francophone.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
                   <i className="fas fa-handshake text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
@@ -79,18 +55,6 @@ export default function ServiceCommunautaire() {
                 </h3>
                 <p className="text-[#f89422]">
                   Aide aux nouveaux arrivants francophones pour leur intégration dans la communauté.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-comments text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Groupes de discussion
-                </h3>
-                <p className="text-[#f89422]">
-                  Forums communautaires et clubs de conversation pour pratiquer et améliorer les compétences linguistiques.
                 </p>
               </div>
 
@@ -108,13 +72,13 @@ export default function ServiceCommunautaire() {
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-child text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-user-friends text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Programmes jeunesse
+                  Services aux personnes avancées en âge
                 </h3>
                 <p className="text-[#f89422]">
-                  Activités récréatives, camps d'été et programmes après-école pour les jeunes francophones.
+                  Programmes adaptés et soutien personnalisé pour les membres francophones avancés en âge de notre communauté.
                 </p>
               </div>
             </div>
