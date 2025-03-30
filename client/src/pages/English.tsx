@@ -18,11 +18,11 @@ export default function English() {
                 style={{ objectFit: "contain" }}
               />
               <div>
-                <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
+                <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
                   <span className="text-[#0d6efd]">{enContent.header.title.firstName}</span>{" "}
                   <span className="text-[#f89422]">{enContent.header.title.lastName}</span>
                 </h1>
-                <p className="text-[#f89422] text-xl">{enContent.header.title.group}</p>
+                <p className="text-[#f89422] text-2xl font-semibold">{enContent.header.title.group}</p>
                 <p className="text-[#f89422] text-lg">{enContent.header.title.groupEn}</p>
               </div>
             </div>

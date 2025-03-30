@@ -35,11 +35,11 @@ export default function Header({ content, isEnglish }: HeaderProps) {
               className="h-50 w-60 mr-3"
             />
             <div>
-              <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
+              <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
                 <span className="text-[#0d6efd]">{content.title.firstName}</span>{" "}
                 <span className="text-[#f89422]">{content.title.lastName}</span>
               </h1>
-              <p className="text-[#f89422] text-xl">{content.title.group}</p>
+              <p className="text-[#f89422] text-2xl font-semibold">{content.title.group}</p>
               <p className="text-gray-300 text-lg">{content.title.groupEn}</p>
             </div>
           </div>

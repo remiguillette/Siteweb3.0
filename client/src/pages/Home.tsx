@@ -18,11 +18,11 @@ export default function Home() {
                 style={{ objectFit: "contain" }}
               />
               <div>
-                <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
+                <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
                   <span className="text-[#0d6efd]">{frContent.header.title.firstName}</span>{" "}
                   <span className="text-[#f89422]">{frContent.header.title.lastName}</span>
                 </h1>
-                <p className="text-[#f89422] text-xl">{frContent.header.title.group}</p>
+                <p className="text-[#f89422] text-2xl font-semibold">{frContent.header.title.group}</p>
                 <p className="text-[#f89422] text-lg">{frContent.header.title.groupEn}</p>
               </div>
             </div>
