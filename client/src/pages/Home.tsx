@@ -14,7 +14,8 @@ export default function Home() {
               <img 
                 src={beaverLogo} 
                 alt="Beaver Logo" 
-                className="h-16 w-16 mr-3"
+                className="h-24 w-24 mr-3"
+                style={{ objectFit: "contain" }}
               />
               <div>
                 <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
@@ -161,7 +162,8 @@ export default function Home() {
                 <img 
                   src={beaverLogo} 
                   alt="Beaver Logo" 
-                  className="h-12 w-12 mr-3"
+                  className="h-20 w-20 mr-3"
+                  style={{ objectFit: "contain" }}
                 />
                 <h3 className="font-['Montserrat'] font-bold text-xl text-[#f89422]">
                   {frContent.footer.contact.title}
