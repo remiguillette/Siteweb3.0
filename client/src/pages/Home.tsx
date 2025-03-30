@@ -1,3 +1,4 @@
+
 import { Link } from "wouter";
 import { frContent } from "@/lib/data";
 import DivisionHeader from "@/components/DivisionHeader";
@@ -28,23 +29,15 @@ export default function Home() {
           >
             {frContent.header.languageToggle}
           </Link>
-        </div>iv>
+        </div>
 
         {/* Hero Section */}
         <section className="py-12">
-          <div className="container mx-auto px-4">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold text-[#f89422] mb-4">
-                {frContent.home.title}
-              </h1>
-              <p className="text-xl text-[#f89422] mb-8">
-                {frContent.home.subtitle}
-              </p>
-            </div>
-          </div>
+          {/* Add your hero section content here */}
         </section>
       </main>
-      <Footer />
+
+      <Footer isEnglish={false} />
     </div>
   );
 }

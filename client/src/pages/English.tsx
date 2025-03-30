@@ -1,49 +1,37 @@
 import { Link } from "wouter";
 import { enContent } from "@/lib/data";
-import beaverLogo from "@assets/beaver.png";
+import DivisionHeader from "@/components/DivisionHeader";
 import Footer from "@/components/Footer";
 
 export default function English() {
   return (
-    <div className="bg-black text-[#f89422] min-h-screen flex flex-col">
-      {/* Simple Header with Language Toggle */}
-      <header className="bg-black shadow-md">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex justify-between items-center">
-            {/* Logo and Title */}
-            <div className="flex items-center">
-              <img 
-                src={beaverLogo} 
-                alt="Beaver Logo" 
-                className="h-50 w-60 mr-5"
-                style={{ objectFit: "contain" }}
-              />
-              <div className="min-w-[300px]">
-                <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
-                  <span className="text-[#0d6efd]">{enContent.header.title.firstName}</span>{" "}
-                  <span className="text-[#f89422]">{enContent.header.title.lastName}</span>
-                </h1>
-                <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{enContent.header.title.group}</p>
-                <p className="text-[#f89422] text-xl font-semibold whitespace-nowrap">{enContent.header.title.groupEn}</p>
-              </div>
-            </div>
-
-            {/* Language Toggle Only */}
-            <div className="flex items-center gap-2">
-              <span className="text-[#f89422] font-bold">Fier de l'Ontario / Proud of Ontario</span>
-              <Link 
-                href="/"
-                className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-              >
-              {enContent.header.languageToggle}
-            </Link>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen flex flex-col bg-black">
+      <DivisionHeader 
+        firstName="Rémi"
+        lastName="Guillette"
+        groupFr="Cabinet-conseil en sécurité publique"
+        groupEn="Public Safety Consulting Firm"
+        isEnglish={true}
+        homePath="/eng"
+        homeLabel="Home"
+        languagePath="/"
+        languageLabel="Français"
+      />
 
       <main className="flex-grow">
+        {/* Language Toggle Only */}
+        <div className="flex items-center gap-2">
+          <span className="text-[#f89422] font-bold">Fier de l'Ontario / Proud of Ontario</span>
+          <Link 
+            href="/"
+            className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
+          >
+            {enContent.header.languageToggle}
+          </Link>
+        </div>
+
         {/* Hero Section */}
-        <section className="py-16 md:py-24 bg-black relative overflow-hidden">
+        <section className="py-12">
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
@@ -54,10 +42,10 @@ export default function English() {
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
                 {enContent.hero.description}
               </p>
-
             </div>
           </div>
         </section>
+
 
         {/* Divisions Section */}
         <section id={enContent.divisions.id} className="py-16 bg-black">
@@ -142,7 +130,7 @@ export default function English() {
         </section>
       </main>
 
-      <Footer />
+      <Footer isEnglish={true} />
     </div>
   );
 }
