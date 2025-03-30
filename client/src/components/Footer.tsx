@@ -54,16 +54,16 @@ export const Footer: React.FC = () => {
             </address>
             <div className="mt-6 border-t border-[#f89422] pt-4">
               <div className="grid grid-cols-2 gap-4">
-                <div className="text-left">
+                <div className="text-left text-[#f89422]">
                   <p className="mb-2">Enregistrement Ontario</p>
                   <p className="mb-4">Ontario Registration</p>
                   <p className="mb-2">Enregistrement Canada</p>
                   <p>Canada Registration</p>
                 </div>
-                <div className="text-center">
-                  <p className="mb-2">1001174676</p>
-                  <p className="mb-4">1001174693</p>
-                  <p>725808273</p>
+                <div className="text-center flex flex-col justify-center text-[#f89422]">
+                  <p className="mb-2 mx-auto">1001174676</p>
+                  <p className="mb-4 mx-auto">1001174693</p>
+                  <p className="mx-auto">725808273</p>
                 </div>
               </div>
             </div>
