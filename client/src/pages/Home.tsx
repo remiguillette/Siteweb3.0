@@ -139,40 +139,7 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-black py-12 border-t border-[#f89422]">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            {/* Contact Info with Logo */}
-            <div id="contact">
-              <div className="flex items-center justify-center mb-4">
-                <img 
-                  src={beaverLogo} 
-                  alt="Beaver Logo" 
-                  className="h-20 w-20 mr-3"
-                  style={{ objectFit: "contain" }}
-                />
-                <h3 className="font-['Montserrat'] font-bold text-xl text-[#f89422]">
-                  {frContent.footer.contact.title}
-                </h3>
-              </div>
-              <address className="not-italic text-[#f89422]">
-                {frContent.footer.contact.address.map((line, index) => (
-                  <p key={index} className="mb-2">{line}</p>
-                ))}
-                <p className="mb-2">
-                  <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.phone}
-                </p>
-                <p>
-                  <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.email}
-                </p>
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
