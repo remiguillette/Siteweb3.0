@@ -12,6 +12,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
     res.json({ message: 'pong' });
   });
 
+  // Privacy policy routes
+  app.get(['/eng/privacy-policy', '/politique-confidentialite'], (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/index.html'));
+  });
+
   const httpServer = createServer(app);
 
   return httpServer;
