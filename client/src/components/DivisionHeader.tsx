@@ -51,7 +51,7 @@ export default function DivisionHeader({
             {homeLabel}
           </Link>
           <span className="text-[#f89422] mr-4">
-            {isEnglish ? "Proud of Ontario" : "Fier de l'Ontario"}
+            Fier de l'Ontario / Proud of Ontario
           </span>
           <Link 
             href={languagePath}
