@@ -40,7 +40,7 @@ export default function Header({ content, isEnglish }: HeaderProps) {
                 <span className="text-[#f89422]">{content.title.lastName}</span>
               </h1>
               <p className="text-[#f89422] text-2xl font-semibold">{content.title.group}</p>
-              <p className="text-gray-300 text-lg">{content.title.groupEn}</p>
+              <p className="text-[#f89422] text-xl font-semibold">{content.title.groupEn}</p>
             </div>
           </div>
 

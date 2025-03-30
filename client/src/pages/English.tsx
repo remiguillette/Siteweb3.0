@@ -23,7 +23,7 @@ export default function English() {
                   <span className="text-[#f89422]">{enContent.header.title.lastName}</span>
                 </h1>
                 <p className="text-[#f89422] text-2xl font-semibold">{enContent.header.title.group}</p>
-                <p className="text-[#f89422] text-lg">{enContent.header.title.groupEn}</p>
+                <p className="text-[#f89422] text-xl font-semibold">{enContent.header.title.groupEn}</p>
               </div>
             </div>
 

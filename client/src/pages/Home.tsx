@@ -23,7 +23,7 @@ export default function Home() {
                   <span className="text-[#f89422]">{frContent.header.title.lastName}</span>
                 </h1>
                 <p className="text-[#f89422] text-2xl font-semibold">{frContent.header.title.group}</p>
-                <p className="text-[#f89422] text-lg">{frContent.header.title.groupEn}</p>
+                <p className="text-[#f89422] text-xl font-semibold">{frContent.header.title.groupEn}</p>
               </div>
             </div>
 
