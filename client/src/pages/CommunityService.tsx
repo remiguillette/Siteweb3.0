@@ -34,7 +34,7 @@ export default function CommunityService() {
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
                     <i className="fas fa-users text-[#f89422] text-2xl"></i>
                   </div>
-                  <h3 className="text-[#0d6efd] font-bold mb-2">Integration Services</h3>
+                  <h3 className="text-[#0d6efd] font-bold mb-2">Integration Services</h3>3>
                   <p className="text-[#f89422]">Support for new Francophone arrivals to help them integrate into the community.</p>
                 </div>
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg">
