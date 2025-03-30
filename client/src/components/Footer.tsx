@@ -39,13 +39,34 @@ export const Footer: React.FC<FooterProps> = ({ content, showLogo = false }) => 
     <footer className="bg-black py-12 border-t border-[#f89422]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          {/* Column 1: Company Info */}
-          <div>
-            <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-              {content.company.name.firstName} {content.company.name.lastName} {content.company.name.group}
+          {/* Column 1: Empty */}
+          <div></div>
+
+          {/* Column 2: Center Content */}
+          <div className="flex flex-col items-center">
+            <img 
+              src={beaverLogo} 
+              alt="Beaver Logo" 
+              className="h-20 w-20 mb-4"
+              style={{ objectFit: "contain" }}
+            />
+            <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
+              {content.company.name.firstName}
             </h3>
-            <p className="text-[#f89422] mb-4">{content.company.description}</p>
+            <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
+              {content.company.name.lastName}
+            </h3>
+            <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
+              {content.company.name.group}
+            </h3>
+            <p className="text-[#f89422] mb-4 text-center">{content.company.description}</p>
+            <a href="/politique" className="text-[#f89422] hover:text-white transition-colors">
+              Politique de confidentialité
+            </a>
           </div>
+
+          {/* Column 3: Empty */}
+          <div></div>
 
           {/* Column 2: Quick Links */}
           <div>
