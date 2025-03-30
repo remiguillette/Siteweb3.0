@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               style={{ objectFit: "contain" }}
             />
             <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
-              Rémi Guillette
+              Rémi Guillette (teste)
             </h3>
             <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
               Groupe
