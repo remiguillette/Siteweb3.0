@@ -1,7 +1,7 @@
-import { frContent } from "@/lib/data";
+import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 
-export default function SanteSSTPage() {
+export default function OHSService() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-[#f89422]">
       {/* Header */}
@@ -10,14 +10,14 @@ export default function SanteSSTPage() {
           <h1 className="font-['Montserrat'] font-bold text-2xl md:text-3xl">
             <span className="text-[#0d6efd]">Rémi</span>{" "}
             <span className="text-[#f89422]">Guillette</span>{" "}
-            <span className="text-[#f89422]">Groupe</span>
+            <span className="text-[#f89422]">Group</span>
           </h1>
           <div className="ml-auto">
-            <Link href="/" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
-              Accueil
+            <Link href="/eng" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
+              Home
             </Link>
-            <Link href="/eng/ohs-service" className="text-[#f89422] hover:text-[#0d6efd]">
-              English
+            <Link href="/sante-sst" className="text-[#f89422] hover:text-[#0d6efd]">
+              Français
             </Link>
           </div>
         </div>
@@ -29,27 +29,27 @@ export default function SanteSSTPage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
-                <span className="text-[#0d6efd]">Service en</span>{" "}
-                <span className="text-[#f89422]">Santé et Sécurité</span>{" "}
-                <span className="text-[#f89422]">au Travail (SST)</span>
+                <span className="text-[#0d6efd]">Occupational</span>{" "}
+                <span className="text-[#f89422]">Health &</span>{" "}
+                <span className="text-[#f89422]">Safety Services</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
-                Notre équipe d'experts en santé et sécurité au travail (SST) aide les entreprises 
-                à créer des environnements de travail sûrs, à respecter les normes réglementaires 
-                et à promouvoir le bien-être des employés.
+                Our team of Occupational Health and Safety (OHS) experts helps companies 
+                create safe working environments, comply with regulatory standards, 
+                and promote employee well-being.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <a 
                   href="#contact" 
                   className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
                 >
-                  Contactez-nous
+                  Contact Us
                 </a>
                 <a 
                   href="#services" 
                   className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
                 >
-                  Nos services
+                  Our Services
                 </a>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function SanteSSTPage() {
         <section id="services" className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
-              <span className="text-[#f89422]">Nos services en SST</span>
+              <span className="text-[#f89422]">Our OHS Services</span>
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -69,10 +69,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-clipboard-list text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Évaluation des risques
+                  Risk Assessment
                 </h3>
                 <p className="text-[#f89422]">
-                  Identification et évaluation des risques professionnels sur le lieu de travail.
+                  Identification and evaluation of workplace occupational hazards.
                 </p>
               </div>
 
@@ -81,10 +81,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-file-alt text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Développement de politiques
+                  Policy Development
                 </h3>
                 <p className="text-[#f89422]">
-                  Création de politiques et procédures de santé et sécurité conformes aux réglementations.
+                  Creation of health and safety policies and procedures that comply with regulations.
                 </p>
               </div>
 
@@ -93,10 +93,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-user-hard-hat text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Formation des employés
+                  Employee Training
                 </h3>
                 <p className="text-[#f89422]">
-                  Programmes de formation complets sur la sécurité au travail, les premiers soins et la gestion des urgences.
+                  Comprehensive training programs on workplace safety, first aid, and emergency management.
                 </p>
               </div>
 
@@ -105,10 +105,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-search text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Audits et inspections
+                  Audits and Inspections
                 </h3>
                 <p className="text-[#f89422]">
-                  Audits réguliers pour évaluer la conformité aux normes de sécurité et identifier les domaines d'amélioration.
+                  Regular audits to assess compliance with safety standards and identify areas for improvement.
                 </p>
               </div>
 
@@ -117,10 +117,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-chart-line text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Gestion des incidents
+                  Incident Management
                 </h3>
                 <p className="text-[#f89422]">
-                  Système de suivi des incidents, analyse des causes profondes et stratégies de prévention.
+                  Incident tracking system, root cause analysis, and prevention strategies.
                 </p>
               </div>
 
@@ -129,10 +129,10 @@ export default function SanteSSTPage() {
                   <i className="fas fa-heartbeat text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Programmes de bien-être
+                  Wellness Programs
                 </h3>
                 <p className="text-[#f89422]">
-                  Initiatives pour promouvoir la santé physique et mentale des employés au travail.
+                  Initiatives to promote physical and mental health of employees in the workplace.
                 </p>
               </div>
             </div>
@@ -147,19 +147,19 @@ export default function SanteSSTPage() {
             {/* Contact Info Only */}
             <div id="contact">
               <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                {frContent.footer.contact.title}
+                {enContent.footer.contact.title}
               </h3>
               <address className="not-italic text-[#f89422]">
-                {frContent.footer.contact.address.map((line, index) => (
+                {enContent.footer.contact.address.map((line, index) => (
                   <p key={index} className="mb-2">{line}</p>
                 ))}
                 <p className="mb-2">
                   <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.phone}
+                  {enContent.footer.contact.phone}
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.email}
+                  {enContent.footer.contact.email}
                 </p>
               </address>
             </div>

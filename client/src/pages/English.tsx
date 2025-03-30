@@ -68,7 +68,7 @@ export default function English() {
             </h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <Link href="/securite-publique" className="no-underline">
+              <Link href="/eng/public-safety" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
                     <i className="fas fa-shield-alt text-[#f89422] text-2xl"></i>
@@ -80,7 +80,7 @@ export default function English() {
                 </div>
               </Link>
 
-              <Link href="/service-communautaire" className="no-underline">
+              <Link href="/eng/community-service" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
                     <i className="fas fa-users text-[#f89422] text-2xl"></i>
@@ -92,7 +92,7 @@ export default function English() {
                 </div>
               </Link>
 
-              <Link href="/sante-sst" className="no-underline">
+              <Link href="/eng/ohs-service" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
                     <i className="fas fa-heartbeat text-[#f89422] text-2xl"></i>
@@ -104,7 +104,7 @@ export default function English() {
                 </div>
               </Link>
 
-              <Link href="/controle-animalier" className="no-underline">
+              <Link href="/eng/animal-control" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
                     <i className="fas fa-paw text-[#f89422] text-2xl"></i>

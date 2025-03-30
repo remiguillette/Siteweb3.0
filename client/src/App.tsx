@@ -9,16 +9,28 @@ import SecuritePublique from "@/pages/SecuritePublique";
 import ServiceCommunautaire from "@/pages/ServiceCommunautaire";
 import SanteSSTPage from "@/pages/SanteSSTPage";
 import ControleAnimalier from "@/pages/ControleAnimalier";
+import PublicSafety from "@/pages/PublicSafety";
+import CommunityService from "@/pages/CommunityService";
+import OHSService from "@/pages/OHSService";
+import AnimalControl from "@/pages/AnimalControl";
 
 function Router() {
   return (
     <Switch>
+      {/* French Routes */}
       <Route path="/" component={Home} />
-      <Route path="/eng" component={English} />
       <Route path="/securite-publique" component={SecuritePublique} />
       <Route path="/service-communautaire" component={ServiceCommunautaire} />
       <Route path="/sante-sst" component={SanteSSTPage} />
       <Route path="/controle-animalier" component={ControleAnimalier} />
+      
+      {/* English Routes */}
+      <Route path="/eng" component={English} />
+      <Route path="/eng/public-safety" component={PublicSafety} />
+      <Route path="/eng/community-service" component={CommunityService} />
+      <Route path="/eng/ohs-service" component={OHSService} />
+      <Route path="/eng/animal-control" component={AnimalControl} />
+      
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>

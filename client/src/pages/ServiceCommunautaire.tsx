@@ -16,7 +16,7 @@ export default function ServiceCommunautaire() {
             <Link href="/" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
               Accueil
             </Link>
-            <Link href="/eng" className="text-[#f89422] hover:text-[#0d6efd]">
+            <Link href="/eng/community-service" className="text-[#f89422] hover:text-[#0d6efd]">
               English
             </Link>
           </div>

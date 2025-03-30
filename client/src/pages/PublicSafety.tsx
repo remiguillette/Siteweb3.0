@@ -1,7 +1,7 @@
-import { frContent } from "@/lib/data";
+import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 
-export default function SanteSSTPage() {
+export default function PublicSafety() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-[#f89422]">
       {/* Header */}
@@ -10,14 +10,14 @@ export default function SanteSSTPage() {
           <h1 className="font-['Montserrat'] font-bold text-2xl md:text-3xl">
             <span className="text-[#0d6efd]">Rémi</span>{" "}
             <span className="text-[#f89422]">Guillette</span>{" "}
-            <span className="text-[#f89422]">Groupe</span>
+            <span className="text-[#f89422]">Group</span>
           </h1>
           <div className="ml-auto">
-            <Link href="/" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
-              Accueil
+            <Link href="/eng" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
+              Home
             </Link>
-            <Link href="/eng/ohs-service" className="text-[#f89422] hover:text-[#0d6efd]">
-              English
+            <Link href="/securite-publique" className="text-[#f89422] hover:text-[#0d6efd]">
+              Français
             </Link>
           </div>
         </div>
@@ -29,27 +29,27 @@ export default function SanteSSTPage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
-                <span className="text-[#0d6efd]">Service en</span>{" "}
-                <span className="text-[#f89422]">Santé et Sécurité</span>{" "}
-                <span className="text-[#f89422]">au Travail (SST)</span>
+                <span className="text-[#0d6efd]">Public Safety</span>{" "}
+                <span className="text-[#f89422]">Consulting</span>{" "}
+                <span className="text-[#f89422]">Firm</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
-                Notre équipe d'experts en santé et sécurité au travail (SST) aide les entreprises 
-                à créer des environnements de travail sûrs, à respecter les normes réglementaires 
-                et à promouvoir le bien-être des employés.
+                Our consulting firm offers specialized expertise in public safety, 
+                helping government and private organizations develop effective strategies 
+                to ensure the safety of citizens and communities.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <a 
                   href="#contact" 
                   className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
                 >
-                  Contactez-nous
+                  Contact Us
                 </a>
                 <a 
                   href="#services" 
                   className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
                 >
-                  Nos services
+                  Our Services
                 </a>
               </div>
             </div>
@@ -60,79 +60,79 @@ export default function SanteSSTPage() {
         <section id="services" className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
-              <span className="text-[#f89422]">Nos services en SST</span>
+              <span className="text-[#f89422]">Our Public Safety Services</span>
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-clipboard-list text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-shield-alt text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Évaluation des risques
+                  Risk Analysis
                 </h3>
                 <p className="text-[#f89422]">
-                  Identification et évaluation des risques professionnels sur le lieu de travail.
+                  Comprehensive assessment of potential threats and development of strategies to minimize risks.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-file-alt text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-users text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Développement de politiques
+                  First Responder Training
                 </h3>
                 <p className="text-[#f89422]">
-                  Création de politiques et procédures de santé et sécurité conformes aux réglementations.
+                  Specialized training programs for law enforcement and emergency responders.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-user-hard-hat text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-city text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Formation des employés
+                  Safe Urban Planning
                 </h3>
                 <p className="text-[#f89422]">
-                  Programmes de formation complets sur la sécurité au travail, les premiers soins et la gestion des urgences.
+                  Consultation on designing safe urban environments and crime prevention through environmental design.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-search text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-clipboard-check text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Audits et inspections
+                  Security Audits
                 </h3>
                 <p className="text-[#f89422]">
-                  Audits réguliers pour évaluer la conformité aux normes de sécurité et identifier les domaines d'amélioration.
+                  Evaluation of existing security systems and recommendations for improving their effectiveness.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-chart-line text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-bullhorn text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Gestion des incidents
+                  Crisis Communication
                 </h3>
                 <p className="text-[#f89422]">
-                  Système de suivi des incidents, analyse des causes profondes et stratégies de prévention.
+                  Strategies for effective communication during emergencies and public safety crises.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-heartbeat text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-book text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Programmes de bien-être
+                  Policy Development
                 </h3>
                 <p className="text-[#f89422]">
-                  Initiatives pour promouvoir la santé physique et mentale des employés au travail.
+                  Assistance in developing policies and regulations to enhance public safety.
                 </p>
               </div>
             </div>
@@ -147,19 +147,19 @@ export default function SanteSSTPage() {
             {/* Contact Info Only */}
             <div id="contact">
               <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                {frContent.footer.contact.title}
+                {enContent.footer.contact.title}
               </h3>
               <address className="not-italic text-[#f89422]">
-                {frContent.footer.contact.address.map((line, index) => (
+                {enContent.footer.contact.address.map((line, index) => (
                   <p key={index} className="mb-2">{line}</p>
                 ))}
                 <p className="mb-2">
                   <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.phone}
+                  {enContent.footer.contact.phone}
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.email}
+                  {enContent.footer.contact.email}
                 </p>
               </address>
             </div>
