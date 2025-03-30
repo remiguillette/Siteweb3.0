@@ -45,7 +45,7 @@ export default function AnimalControl() {
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-dog text-[#f89422]"></i>
                 </div>
-                <h3 className="text-[#0d6efd] text-xl mb-4">Stray Animal Management</h3>
+                <h3 className="text-[#f89422] text-xl mb-4">Stray Animal Management</h3>
                 <p className="text-[#f89422]">
                   Professional handling and care for stray animals, including capture, shelter, and rehabilitation services.
                 </p>
@@ -56,7 +56,7 @@ export default function AnimalControl() {
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-ambulance text-[#f89422]"></i>
                 </div>
-                <h3 className="text-[#0d6efd] text-xl mb-4">Emergency Response</h3>
+                <h3 className="text-[#f89422] text-xl mb-4">Emergency Response</h3>
                 <p className="text-[#f89422]">
                   24/7 emergency response for urgent animal-related incidents and situations requiring immediate attention.
                 </p>
@@ -67,7 +67,7 @@ export default function AnimalControl() {
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-search text-[#f89422]"></i>
                 </div>
-                <h3 className="text-[#0d6efd] text-xl mb-4">Cruelty Investigations</h3>
+                <h3 className="text-[#f89422] text-xl mb-4">Cruelty Investigations</h3>
                 <p className="text-[#f89422]">
                   Thorough investigation of reported animal cruelty cases and enforcement of animal welfare laws.
                 </p>
