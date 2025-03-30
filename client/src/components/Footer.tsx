@@ -1,4 +1,4 @@
-import beaverLogo from "../assets/beaver.png";
+import beaverLogo from "@assets/beaver.png";
 
 interface FooterProps {
   content: {

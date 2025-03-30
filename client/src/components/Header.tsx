@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import beaverLogo from "../assets/beaver.png";
+import beaverLogo from "@assets/beaver.png";
 
 interface HeaderProps {
   content: {
