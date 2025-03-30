@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { frContent } from "@/lib/data";
 import beaverLogo from "@assets/beaver.png";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -62,7 +63,7 @@ export default function Home() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">{frContent.divisions.title}</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="/securite-publique" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
@@ -121,7 +122,7 @@ export default function Home() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">{frContent.services.title}</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {frContent.services.services.map((service, index) => (
                 <div key={index} className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
