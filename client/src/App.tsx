@@ -16,6 +16,8 @@ import PublicSafety from "@/pages/PublicSafety";
 import CommunityService from "@/pages/CommunityService";
 import OHSService from "@/pages/OHSService";
 import AnimalControl from "@/pages/AnimalControl";
+import PolitiqueConfidentialite from "@/pages/PolitiqueConfidentialite"; // Added import
+import PrivacyPolicy from "@/pages/PrivacyPolicy"; // Added import
 
 function Router() {
   return (
@@ -26,20 +28,25 @@ function Router() {
       <Route path="/service-communautaire" component={ServiceCommunautaire} />
       <Route path="/sante-sst" component={SanteSSTPage} />
       <Route path="/controle-animalier" component={ControleAnimalier} />
-      
+
       {/* English Routes */}
       <Route path="/eng" component={English} />
       <Route path="/eng/public-safety" component={PublicSafety} />
       <Route path="/eng/community-service" component={CommunityService} />
       <Route path="/eng/ohs-service" component={OHSService} />
       <Route path="/eng/animal-control" component={AnimalControl} />
-      
+
+      {/* Privacy Policy Routes */}
+      <Route path="/politique-confidentialite" component={PolitiqueConfidentialite} />
+      <Route path="/eng/privacy-policy" component={PrivacyPolicy} />
+
+
       {/* Error Pages */}
       <Route path="/404" component={NotFound} />
       <Route path="/500" component={ServerError} />
       <Route path="/maintenance" component={Maintenance} />
       <Route path="/scheduled-maintenance" component={ScheduledMaintenance} />
-      
+
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
