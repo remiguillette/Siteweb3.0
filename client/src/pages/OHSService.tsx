@@ -123,8 +123,6 @@ export default function OHSService() {
 
       {/* Footer */}
       <Footer />
-        </div>
-      </footer>
     </div>
   );
 }

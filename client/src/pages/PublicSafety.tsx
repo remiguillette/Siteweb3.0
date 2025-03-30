@@ -123,8 +123,6 @@ export default function PublicSafety() {
 
       {/* Footer */}
       <Footer />
-        </div>
-      </footer>
     </div>
   );
 }

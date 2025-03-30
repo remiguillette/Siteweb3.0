@@ -123,8 +123,6 @@ export default function SanteSSTPage() {
 
       {/* Footer */}
       <Footer />
-        </div>
-      </footer>
     </div>
   );
 }

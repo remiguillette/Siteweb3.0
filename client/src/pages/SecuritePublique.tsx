@@ -16,7 +16,7 @@ export default function SecuritePublique() {
         languagePath="/eng/public-safety"
         languageLabel="English"
       />
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -43,7 +43,7 @@ export default function SecuritePublique() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">Nos services en sécurité publique</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
