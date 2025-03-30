@@ -146,28 +146,6 @@ export const enContent = {
       { label: "Services", href: "#services" },
       { label: "Contact", href: "#contact" }
     ],
-  services: {
-    id: "services",
-    title: "Our Services",
-    description: "We offer a comprehensive range of professional services tailored to meet your needs.",
-    services: [
-      {
-        icon: "fas fa-shield-alt",
-        title: "Public Safety Consulting",
-        description: "Expert consulting services in public safety and security management."
-      },
-      {
-        icon: "fas fa-hard-hat",
-        title: "Occupational Health & Safety",
-        description: "Comprehensive workplace safety solutions and compliance guidance."
-      },
-      {
-        icon: "fas fa-users",
-        title: "Community Services",
-        description: "Supporting francophone communities through dedicated programs and initiatives."
-      }
-    ]
-  },
     languageToggle: "Français",
     title: {
       firstName: "Rémi",
@@ -243,22 +221,23 @@ export const enContent = {
   },
   services: {
     id: "services",
-    title: "Our services",
+    title: "Our Services",
+    description: "We offer a comprehensive range of professional services.",
     services: [
       {
-        icon: "fas fa-handshake",
-        title: "Services d'intégration",
-        description: "Aide aux nouveaux arrivants francophones pour leur intégration dans la communauté."
+        icon: "fas fa-briefcase",
+        title: "Strategic Consulting",
+        description: "Personalized guidance to develop and optimize your business strategy according to your specific objectives."
       },
       {
-        icon: "fas fa-heart",
-        title: "Soutien communautaire",
-        description: "Services d'aide sociale, programmes de mentorat et initiatives de développement communautaire."
+        icon: "fas fa-tasks",
+        title: "Project Management",
+        description: "Efficient coordination of your business projects, from initial phase to complete realization."
       },
       {
-        icon: "fas fa-user-friends",
-        title: "Services aux personnes avancées en âge",
-        description: "Programmes adaptés et soutien personnalisé pour les membres francophones avancés en âge de notre communauté."
+        icon: "fas fa-shield-alt",
+        title: "Security and Compliance",
+        description: "Solutions to ensure regulatory compliance and data security for your business."
       }
     ]
   },
