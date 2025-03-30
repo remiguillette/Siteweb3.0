@@ -50,15 +50,17 @@ export default function DivisionHeader({
           >
             {homeLabel}
           </Link>
-          <span className="text-[#f89422] mr-2 font-bold">
-            Fier de l'Ontario / Proud of Ontario
-          </span>
-          <Link 
-            href={languagePath}
+          <div className="flex items-center">
+            <span className="text-[#f89422] mr-4 font-bold">
+              Fier de l'Ontario / Proud of Ontario
+            </span>
+            <Link 
+              href={languagePath}
             className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-white transition"
           >
             {languageLabel}
           </Link>
+          </div>
         </div>
       </div>
     </header>
