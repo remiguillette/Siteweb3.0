@@ -14,16 +14,16 @@ export default function English() {
               <img 
                 src={beaverLogo} 
                 alt="Beaver Logo" 
-                className="h-24 w-24 mr-3"
+                className="h-50 w-60 mr-5"
                 style={{ objectFit: "contain" }}
               />
-              <div>
+              <div className="min-w-[300px]">
                 <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
                   <span className="text-[#0d6efd]">{enContent.header.title.firstName}</span>{" "}
                   <span className="text-[#f89422]">{enContent.header.title.lastName}</span>
                 </h1>
-                <p className="text-[#f89422] text-2xl font-semibold">{enContent.header.title.group}</p>
-                <p className="text-[#f89422] text-xl font-semibold">{enContent.header.title.groupEn}</p>
+                <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{enContent.header.title.group}</p>
+                <p className="text-[#f89422] text-xl font-semibold whitespace-nowrap">{enContent.header.title.groupEn}</p>
               </div>
             </div>
 

@@ -32,15 +32,21 @@ export default function Header({ content, isEnglish }: HeaderProps) {
             <img 
               src={beaverLogo} 
               alt="Beaver Logo" 
-              className="h-50 w-60 mr-3"
+              className="h-50 w-60 mr-5"
             />
-            <div>
+            <div className="min-w-[300px]">
               <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
                 <span className="text-[#0d6efd]">{content.title.firstName}</span>{" "}
                 <span className="text-[#f89422]">{content.title.lastName}</span>
               </h1>
-              <p className="text-[#f89422] text-2xl font-semibold">{content.title.group}</p>
-              <p className="text-[#f89422] text-xl font-semibold">{content.title.groupEn}</p>
+              <div className="flex flex-row">
+                <p className="text-[#f89422] text-2xl font-semibold">{isEnglish ? "" : content.title.group}</p>
+                <p className="text-[#f89422] text-2xl font-semibold">{isEnglish ? content.title.group : ""}</p>
+              </div>
+              <div className="flex flex-row">
+                <p className="text-[#f89422] text-xl font-semibold">{isEnglish ? "" : content.title.groupEn}</p>
+                <p className="text-[#f89422] text-xl font-semibold">{isEnglish ? content.title.groupEn : ""}</p>
+              </div>
             </div>
           </div>
 

@@ -11,7 +11,7 @@ export const frContent = {
       firstName: "Rémi",
       lastName: "Guillette",
       group: "Groupe",
-      groupEn: "group"
+      groupEn: "Group"
     }
   },
   hero: {
@@ -166,7 +166,7 @@ export const enContent = {
       firstName: "Rémi",
       lastName: "Guillette",
       group: "Groupe",
-      groupEn: "group"
+      groupEn: "Group"
     }
   },
   hero: {
