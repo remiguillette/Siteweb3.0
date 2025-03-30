@@ -23,7 +23,7 @@ function Router() {
   return (
     <Switch>
       {/* French Routes */}
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home}/>
       <Route path="/securite-publique" component={SecuritePublique} />
       <Route path="/service-communautaire" component={ServiceCommunautaire} />
       <Route path="/sante-sst" component={SanteSSTPage} />
