@@ -39,9 +39,12 @@ export default function AnimalControl() {
         {/* Services Section */}
         <section className="py-16 bg-black">
           <div className="container mx-auto px-4">
+            <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
+              <span className="text-[#f89422]">Our services</span>
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Stray Animal Management */}
-              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-dog text-[#f89422]"></i>
                 </div>
@@ -52,7 +55,7 @@ export default function AnimalControl() {
               </div>
 
               {/* Emergency Response */}
-              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-ambulance text-[#f89422]"></i>
                 </div>
@@ -63,7 +66,7 @@ export default function AnimalControl() {
               </div>
 
               {/* Cruelty Investigations */}
-              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
                   <i className="fas fa-search text-[#f89422]"></i>
                 </div>
