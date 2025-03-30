@@ -1,27 +1,19 @@
 import { enContent } from "@/lib/data";
 import { Link } from "wouter";
+import DivisionHeader from "@/components/DivisionHeader";
 
 export default function OHSService() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-[#f89422]">
-      {/* Header */}
-      <header className="py-4 bg-black border-b border-[#f89422]">
-        <div className="container mx-auto px-4 flex justify-center items-center">
-          <h1 className="font-['Montserrat'] font-bold text-2xl md:text-3xl">
-            <span className="text-[#0d6efd]">Rémi</span>{" "}
-            <span className="text-[#f89422]">Guillette</span>{" "}
-            <span className="text-[#f89422]">Group</span>
-          </h1>
-          <div className="ml-auto">
-            <Link href="/eng" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
-              Home
-            </Link>
-            <Link href="/sante-sst" className="text-[#f89422] hover:text-[#0d6efd]">
-              Français
-            </Link>
-          </div>
-        </div>
-      </header>
+      <DivisionHeader 
+        firstName="Rémi"
+        lastName="Guillette"
+        group="Occupational Health & Safety Services"
+        homePath="/eng"
+        homeLabel="Home"
+        languagePath="/sante-sst"
+        languageLabel="Français"
+      />
       
       <main className="flex-grow">
         {/* Hero Section */}
