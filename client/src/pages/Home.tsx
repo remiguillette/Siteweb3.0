@@ -14,7 +14,7 @@ export default function Home() {
               <img 
                 src={beaverLogo} 
                 alt="Beaver Logo" 
-                className="h-24 w-24 mr-3"
+                className="h-50 w-60 mr-3"
                 style={{ objectFit: "contain" }}
               />
               <div>

@@ -32,7 +32,7 @@ export default function Header({ content, isEnglish }: HeaderProps) {
             <img 
               src={beaverLogo} 
               alt="Beaver Logo" 
-              className="h-16 w-16 mr-3"
+              className="h-50 w-60 mr-3"
             />
             <div>
               <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
