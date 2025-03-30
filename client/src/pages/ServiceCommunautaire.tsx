@@ -122,7 +122,6 @@ export default function ServiceCommunautaire() {
       </main>
 
       <Footer />
-      </footer>
     </div>
   );
 }
