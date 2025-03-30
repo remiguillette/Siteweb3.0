@@ -94,21 +94,6 @@ export const frContent = {
         description: "Coordination efficace de vos projets d'entreprise, de la phase initiale jusqu'à la réalisation complète."
       },
       {
-        icon: "fas fa-lightbulb",
-        title: "Innovation",
-        description: "Solutions créatives et technologies de pointe pour transformer et moderniser votre entreprise."
-      },
-      {
-        icon: "fas fa-handshake",
-        title: "Partenariats stratégiques",
-        description: "Développement d'alliances commerciales pour renforcer votre positionnement sur le marché."
-      },
-      {
-        icon: "fas fa-globe",
-        title: "Développement international",
-        description: "Accompagnement pour l'expansion de votre entreprise sur les marchés internationaux."
-      },
-      {
         icon: "fas fa-shield-alt",
         title: "Sécurité et conformité",
         description: "Solutions pour garantir la conformité réglementaire et la sécurité des données de votre entreprise."
@@ -247,21 +232,6 @@ export const enContent = {
         icon: "fas fa-chart-pie",
         title: "Project management",
         description: "Effective coordination of your business projects, from the initial phase to full implementation."
-      },
-      {
-        icon: "fas fa-lightbulb",
-        title: "Innovation",
-        description: "Creative solutions and cutting-edge technologies to transform and modernize your business."
-      },
-      {
-        icon: "fas fa-handshake",
-        title: "Strategic partnerships",
-        description: "Development of business alliances to strengthen your market position."
-      },
-      {
-        icon: "fas fa-globe",
-        title: "International development",
-        description: "Support for expanding your business in international markets."
       },
       {
         icon: "fas fa-shield-alt",
