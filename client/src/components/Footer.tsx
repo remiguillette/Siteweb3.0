@@ -1,7 +1,11 @@
 import React from 'react';
 import beaverLogo from '../../../attached_assets/beaver.png';
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  isEnglish?: boolean;
+}
+
+export const Footer: React.FC<FooterProps> = ({ isEnglish = false }) => {
   return (
     <footer className="bg-black py-12 border-t border-[#f89422]">
       <div className="container mx-auto px-4">
@@ -28,10 +32,10 @@ export const Footer: React.FC = () => {
               Group
             </h3>
             <a 
-              href="/politique-confidentialite" 
+              href={isEnglish ? "/eng/privacy-policy" : "/politique-confidentialite"} 
               className="text-[#f89422] text-sm hover:text-white transition-colors mt-6"
             >
-              Politique de confidentialité
+              {isEnglish ? "Privacy Policy" : "Politique de confidentialité"}
             </a>
           </div>
 
