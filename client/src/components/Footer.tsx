@@ -1,5 +1,5 @@
 import React from 'react';
-import beaverLogo from '../../attached_assets/beaver.png';
+import beaverLogo from '../../../attached_assets/beaver.png';
 
 export const Footer: React.FC = () => {
   return (
