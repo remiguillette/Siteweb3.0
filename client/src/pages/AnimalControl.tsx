@@ -1,7 +1,7 @@
 import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 import DivisionHeader from "@/components/DivisionHeader";
-import Footer from "@/components/Footer"; // Assuming Footer component exists
+import Footer from "@/components/Footer";
 
 export default function AnimalControl() {
   return (
@@ -32,88 +32,44 @@ export default function AnimalControl() {
                 through professional interventions, educational programs, and animal protection 
                 initiatives.
               </p>
-
             </div>
           </div>
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-16 bg-black">
+        <section className="py-16 bg-black">
           <div className="container mx-auto px-4">
-            <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
-              <span className="text-[#f89422]">Our Services</span>
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-paw text-[#f89422] text-2xl"></i>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Stray Animal Management */}
+              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+                <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
+                  <i className="fas fa-dog text-[#f89422]"></i>
                 </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Stray Animal Management
-                </h3>
+                <h3 className="text-[#0d6efd] text-xl mb-4">Stray Animal Management</h3>
                 <p className="text-[#f89422]">
-                  Humane capture and relocation of stray or abandoned animals.
+                  Professional handling and care for stray animals, including capture, shelter, and rehabilitation services.
                 </p>
               </div>
 
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-id-card text-[#f89422] text-2xl"></i>
+              {/* Emergency Response */}
+              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+                <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
+                  <i className="fas fa-ambulance text-[#f89422]"></i>
                 </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Permits and Licenses
-                </h3>
+                <h3 className="text-[#0d6efd] text-xl mb-4">Emergency Response</h3>
                 <p className="text-[#f89422]">
-                  Management of pet permits and enforcement of local regulations.
+                  24/7 emergency response for urgent animal-related incidents and situations requiring immediate attention.
                 </p>
               </div>
 
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-clinic-medical text-[#f89422] text-2xl"></i>
+              {/* Cruelty Investigations */}
+              <div className="bg-black border border-[#f89422] p-6 rounded-lg">
+                <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center mb-4 border border-[#f89422]">
+                  <i className="fas fa-search text-[#f89422]"></i>
                 </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Vaccination Clinics
-                </h3>
+                <h3 className="text-[#0d6efd] text-xl mb-4">Cruelty Investigations</h3>
                 <p className="text-[#f89422]">
-                  Organization of low-cost vaccination clinics for pets.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-graduation-cap text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Public Education
-                </h3>
-                <p className="text-[#f89422]">
-                  Educational programs on responsible pet ownership and animal welfare.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-exclamation-triangle text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Emergency Response
-                </h3>
-                <p className="text-[#f89422]">
-                  Rapid response to situations involving dangerous or distressed animals.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-balance-scale text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Cruelty Investigations
-                </h3>
-                <p className="text-[#f89422]">
-                  Investigation of reports of animal neglect or abuse.
+                  Thorough investigation of reported animal cruelty cases and enforcement of animal welfare laws.
                 </p>
               </div>
             </div>
