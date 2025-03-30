@@ -1,3 +1,4 @@
+
 import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 import DivisionHeader from "@/components/DivisionHeader";
@@ -17,7 +18,7 @@ export default function CommunityService() {
         languagePath="/service-communautaire"
         languageLabel="Français"
       />
-
+      
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -53,7 +54,7 @@ export default function CommunityService() {
               </div>
             </div>
           </div>
-        </section>
+        </section>n>
 
         {/* Services Section */}
         <section id="services" className="py-16 bg-black">
