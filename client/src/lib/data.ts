@@ -224,19 +224,19 @@ export const enContent = {
     title: "Our services",
     services: [
       {
-        icon: "fas fa-briefcase",
-        title: "Strategic consulting",
-        description: "Personalized support to develop and optimize your business strategy according to your specific objectives."
+        icon: "fas fa-handshake",
+        title: "Services d'intégration",
+        description: "Aide aux nouveaux arrivants francophones pour leur intégration dans la communauté."
       },
       {
-        icon: "fas fa-chart-pie",
-        title: "Project management",
-        description: "Effective coordination of your business projects, from the initial phase to full implementation."
+        icon: "fas fa-heart",
+        title: "Soutien communautaire",
+        description: "Services d'aide sociale, programmes de mentorat et initiatives de développement communautaire."
       },
       {
-        icon: "fas fa-shield-alt",
-        title: "Security and compliance",
-        description: "Solutions to ensure regulatory compliance and data security for your business."
+        icon: "fas fa-user-friends",
+        title: "Services aux personnes avancées en âge",
+        description: "Programmes adaptés et soutien personnalisé pour les membres francophones avancés en âge de notre communauté."
       }
     ]
   },
