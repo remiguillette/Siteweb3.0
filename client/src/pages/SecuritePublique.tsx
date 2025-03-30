@@ -32,20 +32,7 @@ export default function SecuritePublique() {
                 aidant les organisations gouvernementales et privées à développer des stratégies efficaces 
                 pour assurer la sécurité des citoyens et des communautés.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a 
-                  href="#contact" 
-                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                >
-                  Contactez-nous
-                </a>
-                <a 
-                  href="#services" 
-                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                >
-                  Nos services
-                </a>
-              </div>
+
             </div>
           </div>
         </section>

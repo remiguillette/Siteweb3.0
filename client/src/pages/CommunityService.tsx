@@ -32,20 +32,7 @@ export default function CommunityService() {
                 developing French-speaking communities through cultural, educational, and social 
                 programs that celebrate and preserve the richness of French language and culture.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a 
-                  href="#contact" 
-                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                >
-                  Contact Us
-                </a>
-                <a 
-                  href="#services" 
-                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                >
-                  Our Services
-                </a>
-              </div>
+
             </div>
           </div>
         </section>

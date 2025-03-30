@@ -32,20 +32,7 @@ export default function PublicSafety() {
                 helping government and private organizations develop effective strategies 
                 to ensure the safety of citizens and communities.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a 
-                  href="#contact" 
-                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                >
-                  Contact Us
-                </a>
-                <a 
-                  href="#services" 
-                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                >
-                  Our Services
-                </a>
-              </div>
+
             </div>
           </div>
         </section>

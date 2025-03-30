@@ -51,20 +51,7 @@ export default function English() {
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
                 {enContent.hero.description}
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a 
-                  href={enContent.hero.buttons.primary.href} 
-                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                >
-                  {enContent.hero.buttons.primary.label}
-                </a>
-                <a 
-                  href={enContent.hero.buttons.secondary.href} 
-                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                >
-                  {enContent.hero.buttons.secondary.label}
-                </a>
-              </div>
+
             </div>
           </div>
         </section>
