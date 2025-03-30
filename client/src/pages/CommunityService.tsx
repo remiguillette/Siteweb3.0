@@ -1,7 +1,8 @@
+
 import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 import DivisionHeader from "@/components/DivisionHeader";
-import Footer from "@/components/Footer"; // Assuming Footer component exists
+import Footer from "@/components/Footer";
 
 export default function CommunityService() {
   return (
@@ -17,7 +18,7 @@ export default function CommunityService() {
         languagePath="/service-communautaire"
         languageLabel="Français"
       />
-
+      
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -33,7 +34,6 @@ export default function CommunityService() {
                 developing French-speaking communities through cultural, educational, and social 
                 programs that celebrate and preserve the richness of French language and culture.
               </p>
-
             </div>
           </div>
         </section>
@@ -47,7 +47,7 @@ export default function CommunityService() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-book-open text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-book text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Educational Programs
@@ -71,7 +71,7 @@ export default function CommunityService() {
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-handshake text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Integration Services
@@ -83,7 +83,7 @@ export default function CommunityService() {
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-users text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Community Support
@@ -120,7 +120,6 @@ export default function CommunityService() {
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
   );
