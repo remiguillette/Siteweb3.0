@@ -10,26 +10,26 @@ export const Footer: React.FC = () => {
           <div></div>
 
           {/* Colonne du milieu - contenu principal */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center max-w-[300px] mx-auto">
             <img 
               src={beaverLogo} 
               alt="Logo Beaver" 
-              className="h-20 w-20 mb-4"
+              className="h-32 w-32 mb-6"
               style={{ objectFit: "contain" }}
             />
-            <h3 className="font-['Montserrat'] font-bold text-xl mb-2">
+            <h3 className="font-['Montserrat'] font-bold text-2xl mb-2">
               <span className="text-[#0d6efd]">Rémi</span>{" "}
               <span className="text-[#f89422]">Guillette</span>
             </h3>
-            <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
+            <h3 className="font-['Montserrat'] font-bold text-2xl mb-2 text-[#f89422]">
               Groupe
             </h3>
-            <h3 className="font-['Montserrat'] font-bold text-xl mb-2 text-[#f89422]">
+            <h3 className="font-['Montserrat'] font-bold text-2xl mb-2 text-[#f89422]">
               Group
             </h3>
             <a 
               href="/politique" 
-              className="text-[#f89422] text-sm hover:text-white transition-colors mt-4"
+              className="text-[#f89422] text-sm hover:text-white transition-colors mt-6"
             >
               Politique de confidentialité
             </a>
