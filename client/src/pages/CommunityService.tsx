@@ -25,36 +25,18 @@ export default function CommunityService() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
-                <span className="text-[#0d6efd]">Our</span>{" "}
+                <span className="text-[#0d6efd]">Francophone</span>{" "}
                 <span className="text-[#f89422]">Community</span>{" "}
                 <span className="text-[#f89422]">Services</span>
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                <div className="bg-black border border-[#f89422] p-6 rounded-lg">
-                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
-                    <i className="fas fa-users text-[#f89422] text-2xl"></i>
-                  </div>
-                  <h3 className="text-[#0d6efd] font-bold mb-2">Integration Services</h3>
-                  <p className="text-[#f89422]">Support for new Francophone arrivals to help them integrate into the community.</p>
-                </div>
-                <div className="bg-black border border-[#f89422] p-6 rounded-lg">
-                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
-                    <i className="fas fa-handshake text-[#f89422] text-2xl"></i>
-                  </div>
-                  <h3 className="text-[#0d6efd] font-bold mb-2">Community Support</h3>
-                  <p className="text-[#f89422]">Social assistance services, mentoring programs and community development initiatives.</p>
-                </div>
-                <div className="bg-black border border-[#f89422] p-6 rounded-lg">
-                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
-                    <i className="fas fa-users-between-lines text-[#f89422] text-2xl"></i>
-                  </div>
-                  <h3 className="text-[#0d6efd] font-bold mb-2">Senior Services</h3>
-                  <p className="text-[#f89422]">Tailored programs and personalized support for senior Francophone members of our community.</p>
-                </div>
-              </div>
+              <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
+                Our Francophone community service is dedicated to strengthening, supporting, and 
+                developing French-speaking communities through cultural, educational, and social 
+                programs that celebrate and preserve the richness of French language and culture.
+              </p>
             </div>
           </div>
-        </section>n>
+        </section>
 
         {/* Services Section */}
         <section id="services" className="py-16 bg-black">
