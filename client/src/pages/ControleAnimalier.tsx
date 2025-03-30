@@ -28,17 +28,16 @@ export default function ControleAnimalier() {
                 <span className="text-[#f89422]">animalier</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
-                Notre service de contrôle animalier s'engage à assurer la sécurité publique et le bien-être 
-                animal à travers des interventions professionnelles, des programmes éducatifs et des 
-                initiatives de protection des animaux.
+                Notre service de contrôle animalier s'engage à assurer la sécurité publique et le 
+                bien-être animal à travers des interventions professionnelles, des programmes 
+                éducatifs et des initiatives de protection des animaux.
               </p>
-
             </div>
           </div>
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-16 bg-black">
+        <section className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">Nos services</span>
@@ -47,7 +46,7 @@ export default function ControleAnimalier() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-paw text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-dog text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Gestion des animaux errants
@@ -80,71 +79,10 @@ export default function ControleAnimalier() {
                   Investigation des signalements de négligence ou de maltraitance animale.
                 </p>
               </div>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-exclamation-triangle text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Interventions d'urgence
-                </h3>
-                <p className="text-[#f89422]">
-                  Réponse rapide aux situations impliquant des animaux dangereux ou en détresse.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-balance-scale text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Enquêtes sur la maltraitance
-                </h3>
-                <p className="text-[#f89422]">
-                  Investigation des signalements de négligence ou de maltraitance animale.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Permis et licences
-                </h3>
-                <p className="text-[#f89422]">
-                  Gestion des permis pour animaux de compagnie et application des réglementations locales.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-clinic-medical text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Cliniques de vaccination
-                </h3>
-                <p className="text-[#f89422]">
-                  Organisation de cliniques de vaccination à bas coût pour les animaux domestiques.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-graduation-cap text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Éducation publique
-                </h3>
-                <p className="text-[#f89422]">
-                  Programmes éducatifs sur la responsabilité des propriétaires d'animaux et le bien-être animal.
-                </p>
-              </div>
             </div>
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
   );
