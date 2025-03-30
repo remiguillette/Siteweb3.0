@@ -29,7 +29,7 @@ export default function Home() {
             </div>
 
             {/* Language Toggle Only */}
-            <span className="text-[#f89422] font-bold">Fier de l'Ontario / Proud of Ontario</span>
+            <span className="text-[#f89422] mr-2 font-bold">Fier de l'Ontario / Proud of Ontario</span>
             <Link 
               href="/eng"
               className="ml-2 px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
