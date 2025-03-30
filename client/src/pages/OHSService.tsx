@@ -19,7 +19,6 @@ export default function OHSService() {
       />
 
       <main className="flex-grow">
-        {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
@@ -33,12 +32,10 @@ export default function OHSService() {
                 create safe working environments, comply with regulatory standards, 
                 and promote employee well-being.
               </p>
-
             </div>
           </div>
         </section>
 
-        {/* Services Section */}
         <section id="services" className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
@@ -48,13 +45,13 @@ export default function OHSService() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-clipboard-list text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-search text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Risk Assessment
                 </h3>
                 <p className="text-[#f89422]">
-                  Identification and evaluation of workplace occupational hazards.
+                  Comprehensive workplace risk assessment and analysis to prevent accidents and ensure safety.
                 </p>
               </div>
 
@@ -66,55 +63,19 @@ export default function OHSService() {
                   Policy Development
                 </h3>
                 <p className="text-[#f89422]">
-                  Creation of health and safety policies and procedures that comply with regulations.
+                  Development of tailored OHS policies and procedures adapted to your organization's specific needs.
                 </p>
               </div>
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-user-hard-hat text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Employee Training
-                </h3>
-                <p className="text-[#f89422]">
-                  Comprehensive training programs on workplace safety, first aid, and emergency management.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-search text-[#f89422] text-2xl"></i>
+                  <i className="fas fa-clipboard-check text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Audits and Inspections
                 </h3>
                 <p className="text-[#f89422]">
-                  Regular audits to assess compliance with safety standards and identify areas for improvement.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-chart-line text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Incident Management
-                </h3>
-                <p className="text-[#f89422]">
-                  Incident tracking system, root cause analysis, and prevention strategies.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-heartbeat text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Wellness Programs
-                </h3>
-                <p className="text-[#f89422]">
-                  Initiatives to promote physical and mental health of employees in the workplace.
+                  Regular compliance assessment and identification of improvement opportunities in OHS practices.
                 </p>
               </div>
             </div>
@@ -122,7 +83,6 @@ export default function OHSService() {
         </section>
       </main>
 
-      {/* Footer */}
       <Footer />
     </div>
   );
