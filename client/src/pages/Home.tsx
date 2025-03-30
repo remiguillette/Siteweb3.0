@@ -28,7 +28,7 @@ export default function Home() {
           >
             {frContent.header.languageToggle}
           </Link>
-        </div>
+        </div>iv>
 
         {/* Hero Section */}
         <section className="py-12">
