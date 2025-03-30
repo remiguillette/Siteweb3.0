@@ -1,3 +1,4 @@
+
 import DivisionHeader from "@/components/DivisionHeader";
 import Footer from "@/components/Footer";
 
@@ -22,37 +23,51 @@ export default function PolitiqueConfidentialite() {
             <h1 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-8 text-center">
               Politique de confidentialité
             </h1>
-
+            
             <div className="max-w-3xl mx-auto space-y-6">
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Introduction</h2>
                 <p className="mb-4">
-                  La protection de vos données personnelles est une priorité pour le Groupe Rémi Guillette. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations.
+                  La protection de vos données personnelles est une priorité pour Rémi Guillette Groupe. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations.
                 </p>
               </section>
 
               <section>
-                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Collecte de données</h2>
+                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Collecte des données</h2>
                 <p className="mb-4">
-                  Nous collectons uniquement les informations nécessaires à la fourniture de nos services. Cela peut inclure :
+                  Nous collectons uniquement les informations nécessaires pour vous fournir nos services de consultation. Ces informations peuvent inclure :
                 </p>
-                <ul className="list-disc pl-6 mb-4 space-y-2">
-                  <li>Informations de contact (nom, courriel, numéro de téléphone)</li>
-                  <li>Informations d'entreprise</li>
-                  <li>Préférences de service</li>
+                <ul className="list-disc pl-6 mb-4">
+                  <li>Nom et coordonnées</li>
+                  <li>Informations professionnelles</li>
+                  <li>Données de communication</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Utilisation des données</h2>
                 <p className="mb-4">
-                  Nous utilisons vos informations pour :
+                  Vos données sont utilisées exclusivement pour :
                 </p>
-                <ul className="list-disc pl-6 mb-4 space-y-2">
-                  <li>Fournir et améliorer nos services</li>
-                  <li>Communiquer avec vous concernant nos services</li>
-                  <li>Respecter nos obligations légales</li>
+                <ul className="list-disc pl-6 mb-4">
+                  <li>Fournir nos services de consultation</li>
+                  <li>Communiquer avec vous</li>
+                  <li>Améliorer nos services</li>
                 </ul>
+              </section>
+
+              <section>
+                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Protection des données</h2>
+                <p className="mb-4">
+                  Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données contre tout accès non autorisé, modification, divulgation ou destruction.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Vos droits</h2>
+                <p className="mb-4">
+                  Vous avez le droit d'accéder à vos données, de les modifier ou de les supprimer. Pour toute demande concernant vos données personnelles, veuillez nous contacter.
+                </p>
               </section>
             </div>
           </div>
