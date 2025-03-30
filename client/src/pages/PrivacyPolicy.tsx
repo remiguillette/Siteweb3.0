@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Your Rights</h2>
                 <p className="mb-4">
-                  You have the right to access, modify, or delete your data. For any requests regarding your personal data, please contact us.
+                  You have the right to access your data, modify it, or request its deletion. For any inquiries regarding your personal data, please contact us.
                 </p>
               </section>
             </div>

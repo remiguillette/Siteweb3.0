@@ -146,6 +146,28 @@ export const enContent = {
       { label: "Services", href: "#services" },
       { label: "Contact", href: "#contact" }
     ],
+  services: {
+    id: "services",
+    title: "Our Services",
+    description: "We offer a comprehensive range of professional services tailored to meet your needs.",
+    services: [
+      {
+        icon: "fas fa-shield-alt",
+        title: "Public Safety Consulting",
+        description: "Expert consulting services in public safety and security management."
+      },
+      {
+        icon: "fas fa-hard-hat",
+        title: "Occupational Health & Safety",
+        description: "Comprehensive workplace safety solutions and compliance guidance."
+      },
+      {
+        icon: "fas fa-users",
+        title: "Community Services",
+        description: "Supporting francophone communities through dedicated programs and initiatives."
+      }
+    ]
+  },
     languageToggle: "Français",
     title: {
       firstName: "Rémi",
