@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
               Group
             </h3>
             <a 
-              href="/politique" 
+              href="/politique-confidentialite" 
               className="text-[#f89422] text-sm hover:text-white transition-colors mt-6"
             >
               Politique de confidentialité
