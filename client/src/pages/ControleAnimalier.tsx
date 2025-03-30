@@ -105,9 +105,9 @@ export default function ControleAnimalier() {
                   Investigation des signalements de négligence ou de maltraitance animale.
                 </p>
               </div>
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-id-card text-[#f89422] text-2xl"></i>
+            </div>
+          </div>
+        </section>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
                   Permis et licences
