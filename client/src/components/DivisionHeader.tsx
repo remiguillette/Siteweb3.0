@@ -50,7 +50,7 @@ export default function DivisionHeader({
           >
             {homeLabel}
           </Link>
-          <span className="text-[#f89422] mr-4">
+          <span className="text-[#f89422] mr-4 font-bold">
             Fier de l'Ontario / Proud of Ontario
           </span>
           <Link 
