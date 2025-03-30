@@ -122,29 +122,7 @@ export default function SecuritePublique() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-black py-12 border-t border-[#f89422]">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            {/* Contact Info Only */}
-            <div id="contact">
-              <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                {frContent.footer.contact.title}
-              </h3>
-              <address className="not-italic text-[#f89422]">
-                {frContent.footer.contact.address.map((line, index) => (
-                  <p key={index} className="mb-2">{line}</p>
-                ))}
-                <p className="mb-2">
-                  <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.phone}
-                </p>
-                <p>
-                  <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
-                  {frContent.footer.contact.email}
-                </p>
-              </address>
-            </div>
-          </div>
+      <Footer />
         </div>
       </footer>
     </div>
