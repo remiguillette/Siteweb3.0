@@ -1,0 +1,171 @@
+import { frContent } from "@/lib/data";
+import { Link } from "wouter";
+
+export default function ServiceCommunautaire() {
+  return (
+    <div className="min-h-screen flex flex-col bg-black text-[#f89422]">
+      {/* Header */}
+      <header className="py-4 bg-black border-b border-[#f89422]">
+        <div className="container mx-auto px-4 flex justify-center items-center">
+          <h1 className="font-['Montserrat'] font-bold text-2xl md:text-3xl">
+            <span className="text-[#0d6efd]">Rémi</span>{" "}
+            <span className="text-[#f89422]">Guillette</span>{" "}
+            <span className="text-[#f89422]">Groupe</span>
+          </h1>
+          <div className="ml-auto">
+            <Link href="/" className="text-[#f89422] hover:text-[#0d6efd] mr-4">
+              Accueil
+            </Link>
+            <Link href="/eng" className="text-[#f89422] hover:text-[#0d6efd]">
+              English
+            </Link>
+          </div>
+        </div>
+      </header>
+      
+      <main className="flex-grow">
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 bg-black relative overflow-hidden">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-col items-center text-center">
+              <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
+                <span className="text-[#0d6efd]">Service</span>{" "}
+                <span className="text-[#f89422]">communautaire</span>{" "}
+                <span className="text-[#f89422]">francophone</span>
+              </h2>
+              <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
+                Notre service communautaire francophone est dédié à renforcer, soutenir et développer 
+                les communautés francophones à travers des programmes culturels, éducatifs et sociaux qui 
+                célèbrent et préservent la richesse de la langue et de la culture françaises.
+              </p>
+              <div className="flex flex-wrap gap-4 justify-center">
+                <a 
+                  href="#contact" 
+                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
+                >
+                  Contactez-nous
+                </a>
+                <a 
+                  href="#services" 
+                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
+                >
+                  Nos services
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Section */}
+        <section id="services" className="py-16 bg-black">
+          <div className="container mx-auto px-4">
+            <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
+              <span className="text-[#f89422]">Nos services communautaires</span>
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-book-open text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Programmes éducatifs
+                </h3>
+                <p className="text-[#f89422]">
+                  Cours de français, clubs de lecture et ateliers éducatifs pour tous les âges.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-theater-masks text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Événements culturels
+                </h3>
+                <p className="text-[#f89422]">
+                  Festivals, concerts, pièces de théâtre et expositions artistiques célébrant la culture francophone.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-handshake text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Services d'intégration
+                </h3>
+                <p className="text-[#f89422]">
+                  Aide aux nouveaux arrivants francophones pour leur intégration dans la communauté.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-comments text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Groupes de discussion
+                </h3>
+                <p className="text-[#f89422]">
+                  Forums communautaires et clubs de conversation pour pratiquer et améliorer les compétences linguistiques.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Soutien communautaire
+                </h3>
+                <p className="text-[#f89422]">
+                  Services d'aide sociale, programmes de mentorat et initiatives de développement communautaire.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-child text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Programmes jeunesse
+                </h3>
+                <p className="text-[#f89422]">
+                  Activités récréatives, camps d'été et programmes après-école pour les jeunes francophones.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-black py-12 border-t border-[#f89422]">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            {/* Contact Info Only */}
+            <div id="contact">
+              <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                {frContent.footer.contact.title}
+              </h3>
+              <address className="not-italic text-[#f89422]">
+                {frContent.footer.contact.address.map((line, index) => (
+                  <p key={index} className="mb-2">{line}</p>
+                ))}
+                <p className="mb-2">
+                  <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
+                  {frContent.footer.contact.phone}
+                </p>
+                <p>
+                  <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
+                  {frContent.footer.contact.email}
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

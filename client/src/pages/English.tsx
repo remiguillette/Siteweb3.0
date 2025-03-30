@@ -67,22 +67,54 @@ export default function English() {
               <span className="text-[#f89422]">{enContent.divisions.title}</span>
             </h2>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-              {enContent.divisions.divisions.map((division, index) => (
-                <div 
-                  key={index} 
-                  className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1"
-                >
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Link href="/securite-publique" className="no-underline">
+                <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
                   <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
-                    <i className={`${division.icon} text-[#f89422] text-2xl`}></i>
+                    <i className="fas fa-shield-alt text-[#f89422] text-2xl"></i>
                   </div>
                   <h3 className="mb-2">
-                    <span className="text-[#0d6efd]">{division.firstName}</span>{" "}
-                    <span className="text-[#f89422]">{division.lastName}</span>
+                    <span className="text-[#0d6efd]">Public Safety</span>{" "}
+                    <span className="text-[#f89422]">Consulting Firm</span>
                   </h3>
-                  <p className="text-[#f89422] font-medium">{division.name}</p>
                 </div>
-              ))}
+              </Link>
+
+              <Link href="/service-communautaire" className="no-underline">
+                <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
+                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
+                    <i className="fas fa-users text-[#f89422] text-2xl"></i>
+                  </div>
+                  <h3 className="mb-2">
+                    <span className="text-[#0d6efd]">Francophone</span>{" "}
+                    <span className="text-[#f89422]">Community Services</span>
+                  </h3>
+                </div>
+              </Link>
+
+              <Link href="/sante-sst" className="no-underline">
+                <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
+                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
+                    <i className="fas fa-heartbeat text-[#f89422] text-2xl"></i>
+                  </div>
+                  <h3 className="mb-2">
+                    <span className="text-[#0d6efd]">Occupational</span>{" "}
+                    <span className="text-[#f89422]">Health & Safety Services</span>
+                  </h3>
+                </div>
+              </Link>
+
+              <Link href="/controle-animalier" className="no-underline">
+                <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
+                  <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4 border border-[#f89422]">
+                    <i className="fas fa-paw text-[#f89422] text-2xl"></i>
+                  </div>
+                  <h3 className="mb-2">
+                    <span className="text-[#0d6efd]">Animal</span>{" "}
+                    <span className="text-[#f89422]">Control Services</span>
+                  </h3>
+                </div>
+              </Link>
             </div>
           </div>
         </section>
