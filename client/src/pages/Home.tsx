@@ -35,8 +35,9 @@ export default function Home() {
                 href="/eng"
                 className="px-4 py-2 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
               >
-              {frContent.header.languageToggle}
-            </Link>
+                {frContent.header.languageToggle}
+              </Link>
+            </div>
           </div>
         </div>
       </header>
