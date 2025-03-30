@@ -31,12 +31,20 @@ export const Footer: React.FC<FooterProps> = ({ isEnglish = false }) => {
             <h3 className="font-['Montserrat'] font-bold text-2xl mb-2 text-[#f89422]">
               Group
             </h3>
-            <a 
-              href={isEnglish ? "/eng/privacy-policy" : "/politique-confidentialite"} 
-              className="text-[#f89422] text-sm hover:text-white transition-colors mt-6"
-            >
-              {isEnglish ? "Privacy Policy" : "Politique de confidentialité"}
-            </a>
+            <div className="flex flex-col items-center gap-2 mt-6">
+              <a 
+                href="/politique-confidentialite" 
+                className="text-[#f89422] text-sm hover:text-white transition-colors"
+              >
+                Politique de confidentialité
+              </a>
+              <a 
+                href="/eng/privacy-policy" 
+                className="text-[#f89422] text-sm hover:text-white transition-colors"
+              >
+                Privacy Policy
+              </a>
+            </div>
           </div>
 
           {/* Colonne de droite - informations de contact */}
