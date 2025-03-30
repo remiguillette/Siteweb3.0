@@ -84,6 +84,18 @@ export default function CommunityService() {
 
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Community Support
+                </h3>
+                <p className="text-[#f89422]">
+                  Social assistance services, mentoring programs and community development initiatives.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
                   <i className="fas fa-comments text-[#f89422] text-2xl"></i>
                 </div>
                 <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
@@ -91,18 +103,6 @@ export default function CommunityService() {
                 </h3>
                 <p className="text-[#f89422]">
                   Community forums and conversation clubs to practice and improve language skills.
-                </p>
-              </div>
-
-              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
-                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
-                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
-                </div>
-                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
-                  Community Support
-                </h3>
-                <p className="text-[#f89422]">
-                  Social assistance services, mentorship programs, and community development initiatives.
                 </p>
               </div>
 
