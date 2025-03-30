@@ -123,8 +123,6 @@ export default function SecuritePublique() {
 
       {/* Footer */}
       <Footer />
-        </div>
-      </footer>
     </div>
   );
 }
