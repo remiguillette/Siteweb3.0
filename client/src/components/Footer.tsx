@@ -28,10 +28,10 @@ export const Footer: React.FC = () => {
               Group
             </h3>
             <a 
-              href="/politique" 
+              href={window.location.pathname.startsWith('/eng') ? '/eng/privacy-policy' : '/politique-confidentialite'} 
               className="text-[#f89422] text-sm hover:text-white transition-colors mt-6"
             >
-              Politique de confidentialité
+              {window.location.pathname.startsWith('/eng') ? 'Privacy Policy' : 'Politique de confidentialité'}
             </a>
           </div>
 
