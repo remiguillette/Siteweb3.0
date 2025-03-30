@@ -154,6 +154,16 @@ export const enContent = {
       groupEn: "Group"
     }
   },
+  hero: frContent.hero,
+  divisions: {
+    id: "divisions",
+    title: "Our Divisions",
+    divisions: frContent.divisions.divisions.map(div => ({
+      ...div,
+      name: div.name === "Immobilier" ? "Real Estate" :
+            div.name === "Technologies" ? "Technology" : div.name
+    }))
+  },
   hero: {
     id: "home",
     title: {
