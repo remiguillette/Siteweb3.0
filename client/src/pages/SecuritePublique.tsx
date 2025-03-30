@@ -1,6 +1,7 @@
 import { frContent } from "@/lib/data";
 import { Link } from "wouter";
 import DivisionHeader from "@/components/DivisionHeader";
+import Footer from "@/components/Footer";
 
 export default function SecuritePublique() {
   return (
