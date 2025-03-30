@@ -44,6 +44,81 @@ export default function CommunityService() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">Our Community Services</span>
             </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-book text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Educational Programs
+                </h3>
+                <p className="text-[#f89422]">
+                  French language courses, book clubs, and educational workshops for all ages.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-theater-masks text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Cultural Events
+                </h3>
+                <p className="text-[#f89422]">
+                  Festivals, concerts, plays, and art exhibitions celebrating Francophone culture.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-hands-helping text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Integration Services
+                </h3>
+                <p className="text-[#f89422]">
+                  Support for new Francophone arrivals to help them integrate into the community.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-users text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Community Support
+                </h3>
+                <p className="text-[#f89422]">
+                  Social assistance services, mentoring programs and community development initiatives.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-comments text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Discussion Groups
+                </h3>
+                <p className="text-[#f89422]">
+                  Community forums and conversation clubs to practice and improve language skills.
+                </p>
+              </div>
+
+              <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
+                <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
+                  <i className="fas fa-child text-[#f89422] text-2xl"></i>
+                </div>
+                <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">
+                  Youth Programs
+                </h3>
+                <p className="text-[#f89422]">
+                  Recreational activities, summer camps, and after-school programs for Francophone youth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
