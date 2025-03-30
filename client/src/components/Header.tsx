@@ -39,13 +39,9 @@ export default function Header({ content, isEnglish }: HeaderProps) {
                 <span className="text-[#0d6efd]">{content.title.firstName}</span>{" "}
                 <span className="text-[#f89422]">{content.title.lastName}</span>
               </h1>
-              <div className="flex flex-row">
-                <p className="text-[#f89422] text-2xl font-semibold">{isEnglish ? "" : content.title.group}</p>
-                <p className="text-[#f89422] text-2xl font-semibold">{isEnglish ? content.title.group : ""}</p>
-              </div>
-              <div className="flex flex-row">
-                <p className="text-[#f89422] text-xl font-semibold">{isEnglish ? "" : content.title.groupEn}</p>
-                <p className="text-[#f89422] text-xl font-semibold">{isEnglish ? content.title.groupEn : ""}</p>
+              <div className="flex flex-col">
+                <p className="text-[#f89422] text-2xl font-semibold">{content.title.group}</p>
+                <p className="text-[#f89422] text-xl font-semibold">{content.title.groupEn}</p>
               </div>
             </div>
           </div>

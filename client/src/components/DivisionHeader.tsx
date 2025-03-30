@@ -39,8 +39,8 @@ export default function DivisionHeader({
               <span className="text-[#0d6efd]">{firstName}</span>{" "}
               <span className="text-[#f89422]">{lastName}</span>
             </h1>
-            <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{isEnglish ? groupEn : groupFr}</p>
-            <p className="text-[#f89422] text-xl font-semibold whitespace-nowrap">{isEnglish ? groupFr : groupEn}</p>
+            <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{groupFr}</p>
+            <p className="text-[#f89422] text-xl font-semibold whitespace-nowrap">{groupEn}</p>
           </div>
         </div>
         <div>
