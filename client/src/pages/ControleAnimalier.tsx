@@ -8,7 +8,9 @@ export default function ControleAnimalier() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        group="Service de contrôle Animalier"
+        groupFr="Service de contrôle Animalier"
+        groupEn="Animal Control Services"
+        isEnglish={false}
         homePath="/"
         homeLabel="Accueil"
         languagePath="/eng/animal-control"

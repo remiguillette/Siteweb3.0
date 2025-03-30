@@ -4,7 +4,9 @@ import { Link } from "wouter";
 interface DivisionHeaderProps {
   firstName: string;
   lastName: string;
-  group: string;
+  groupFr: string;
+  groupEn: string;
+  isEnglish: boolean;
   homePath: string;
   homeLabel: string;
   languagePath: string;
@@ -14,7 +16,9 @@ interface DivisionHeaderProps {
 export default function DivisionHeader({
   firstName,
   lastName,
-  group,
+  groupFr,
+  groupEn,
+  isEnglish,
   homePath,
   homeLabel,
   languagePath,
@@ -27,15 +31,16 @@ export default function DivisionHeader({
           <img 
             src={beaverLogo} 
             alt="Beaver Logo" 
-            className="h-20 w-20 mr-5"
+            className="h-50 w-60 mr-5"
             style={{ objectFit: "contain" }}
           />
-          <div className="min-w-[300px]">
-            <h1 className="font-['Montserrat'] font-extrabold text-4xl tracking-wide">
+          <div className="max-w-[480px]">
+            <h1 className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl tracking-wide">
               <span className="text-[#0d6efd]">{firstName}</span>{" "}
               <span className="text-[#f89422]">{lastName}</span>
             </h1>
-            <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{group}</p>
+            <p className="text-[#f89422] text-2xl font-semibold whitespace-nowrap">{isEnglish ? groupEn : groupFr}</p>
+            <p className="text-[#f89422] text-xl font-semibold whitespace-nowrap">{isEnglish ? groupFr : groupEn}</p>
           </div>
         </div>
         <div>

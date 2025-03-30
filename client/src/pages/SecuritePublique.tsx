@@ -8,7 +8,9 @@ export default function SecuritePublique() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        group="Cabinet-conseil en sécurité publique"
+        groupFr="Cabinet-conseil en sécurité publique"
+        groupEn="Public Safety Consulting Firm"
+        isEnglish={false}
         homePath="/"
         homeLabel="Accueil"
         languagePath="/eng/public-safety"

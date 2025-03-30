@@ -8,7 +8,9 @@ export default function SanteSSTPage() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        group="Service en Santé sécurité au Travail SST"
+        groupFr="Service en Santé sécurité au Travail SST"
+        groupEn="Occupational Health and Safety (OHS) Services"
+        isEnglish={false}
         homePath="/"
         homeLabel="Accueil"
         languagePath="/eng/ohs-service"

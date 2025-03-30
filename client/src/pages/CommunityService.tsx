@@ -8,7 +8,9 @@ export default function CommunityService() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        group="Francophone Community Services"
+        groupFr="Service communautaire francophone"
+        groupEn="Francophone Community Services"
+        isEnglish={true}
         homePath="/eng"
         homeLabel="Home"
         languagePath="/service-communautaire"
