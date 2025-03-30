@@ -33,6 +33,8 @@ function Router() {
       <Route path="/eng/community-service" component={CommunityService} />
       <Route path="/eng/ohs-service" component={OHSService} />
       <Route path="/eng/animal-control" component={AnimalControl} />
+      <Route path="/eng/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/politique-confidentialite" component={PolitiqueConfidentialite} />
       
       {/* Error Pages */}
       <Route path="/404" component={NotFound} />

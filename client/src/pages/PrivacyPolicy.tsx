@@ -1,4 +1,3 @@
-
 import DivisionHeader from "@/components/DivisionHeader";
 import Footer from "@/components/Footer";
 
@@ -23,7 +22,7 @@ export default function PrivacyPolicy() {
             <h1 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-8 text-center">
               Privacy Policy
             </h1>
-            
+
             <div className="max-w-3xl mx-auto space-y-6">
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Introduction</h2>
@@ -35,39 +34,25 @@ export default function PrivacyPolicy() {
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Data Collection</h2>
                 <p className="mb-4">
-                  We only collect information necessary to provide our consulting services. This information may include:
+                  We collect only the necessary information required to provide our services. This may include:
                 </p>
-                <ul className="list-disc pl-6 mb-4">
-                  <li>Name and contact information</li>
-                  <li>Professional information</li>
-                  <li>Communication data</li>
+                <ul className="list-disc pl-6 mb-4 space-y-2">
+                  <li>Contact information (name, email, phone number)</li>
+                  <li>Business information</li>
+                  <li>Service preferences</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Data Usage</h2>
                 <p className="mb-4">
-                  Your data is used exclusively for:
+                  We use your information to:
                 </p>
-                <ul className="list-disc pl-6 mb-4">
-                  <li>Providing our consulting services</li>
-                  <li>Communicating with you</li>
-                  <li>Improving our services</li>
+                <ul className="list-disc pl-6 mb-4 space-y-2">
+                  <li>Provide and improve our services</li>
+                  <li>Communicate with you about our services</li>
+                  <li>Comply with legal obligations</li>
                 </ul>
-              </section>
-
-              <section>
-                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Data Protection</h2>
-                <p className="mb-4">
-                  We implement appropriate security measures to protect your data against unauthorized access, modification, disclosure, or destruction.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="font-['Montserrat'] font-bold text-2xl mb-4">Your Rights</h2>
-                <p className="mb-4">
-                  You have the right to access, modify, or delete your data. For any requests regarding your personal data, please contact us.
-                </p>
               </section>
             </div>
           </div>
