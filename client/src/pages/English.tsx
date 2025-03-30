@@ -37,7 +37,7 @@ export default function English() {
           </div>
         </div>
       </header>
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -62,7 +62,7 @@ export default function English() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">{enContent.divisions.title}</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="/eng/public-safety" className="no-underline">
                 <div className="bg-black border border-[#f89422] p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-1">
@@ -121,7 +121,7 @@ export default function English() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">{enContent.services.title}</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {enContent.services.services.map((service, index) => (
                 <div key={index} className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
@@ -139,40 +139,7 @@ export default function English() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-black py-12 border-t border-[#f89422]">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            {/* Contact Info with Logo */}
-            <div id="contact">
-              <div className="flex items-center justify-center mb-4">
-                <img 
-                  src={beaverLogo} 
-                  alt="Beaver Logo" 
-                  className="h-20 w-20 mr-3"
-                  style={{ objectFit: "contain" }}
-                />
-                <h3 className="font-['Montserrat'] font-bold text-xl text-[#f89422]">
-                  {enContent.footer.contact.title}
-                </h3>
-              </div>
-              <address className="not-italic text-[#f89422]">
-                {enContent.footer.contact.address.map((line, index) => (
-                  <p key={index} className="mb-2">{line}</p>
-                ))}
-                <p className="mb-2">
-                  <i className="fas fa-phone-alt mr-2 text-[#f89422]"></i>
-                  {enContent.footer.contact.phone}
-                </p>
-                <p>
-                  <i className="fas fa-envelope mr-2 text-[#f89422]"></i>
-                  {enContent.footer.contact.email}
-                </p>
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

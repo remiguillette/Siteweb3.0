@@ -1,6 +1,7 @@
 import { enContent } from "@/lib/data";
 import { Link } from "wouter";
 import DivisionHeader from "@/components/DivisionHeader";
+import Footer from "@/components/Footer"; // Assuming Footer component exists
 
 export default function CommunityService() {
   return (
@@ -16,7 +17,7 @@ export default function CommunityService() {
         languagePath="/service-communautaire"
         languageLabel="Français"
       />
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-black relative overflow-hidden">
@@ -43,7 +44,7 @@ export default function CommunityService() {
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
               <span className="text-[#f89422]">Our Community Services</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-black border border-[#f89422] p-8 rounded-lg hover:shadow-xl transition">
                 <div className="w-14 h-14 bg-black border border-[#f89422] rounded-lg flex items-center justify-center mb-6">
