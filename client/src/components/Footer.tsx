@@ -52,6 +52,21 @@ export const Footer: React.FC = () => {
                 remiguillette@gmail.com
               </p>
             </address>
+            <div className="mt-6 border-t border-[#f89422] pt-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-left">
+                  <p className="mb-2">Enregistrement Ontario</p>
+                  <p className="mb-4">Ontario Registration</p>
+                  <p className="mb-2">Enregistrement Canada</p>
+                  <p>Canada Registration</p>
+                </div>
+                <div className="text-center">
+                  <p className="mb-2">1001174676</p>
+                  <p className="mb-4">1001174693</p>
+                  <p>725808273</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
