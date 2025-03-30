@@ -36,9 +36,9 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Colonne de droite - informations de contact */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col">
             <h3 className="font-['Montserrat'] font-bold text-xl mb-4 text-[#f89422]">Contact</h3>
-            <address className="not-italic text-[#f89422] text-center">
+            <address className="not-italic text-[#f89422]">
               <p className="mb-2">6388 Hawkins Street</p>
               <p className="mb-2">Apt. 307</p>
               <p className="mb-2">Niagara Falls, Ontario</p>
