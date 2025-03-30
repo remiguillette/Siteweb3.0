@@ -1,3 +1,5 @@
+import beaverLogo from "../assets/beaver.png";
+
 interface FooterProps {
   content: {
     company: {
@@ -39,11 +41,18 @@ export default function Footer({ content }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="md:col-span-1 text-center md:text-left">
-            <h3 className="font-['Montserrat'] font-bold text-xl mb-4">
-              <span className="text-[#0d6efd]">{content.company.name.firstName}</span>{" "}
-              <span className="text-[#f89422]">{content.company.name.lastName}</span>{" "}
-              <span className="text-[#f89422]">{content.company.name.group}</span>
-            </h3>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              <img 
+                src={beaverLogo} 
+                alt="Beaver Logo" 
+                className="h-12 w-12 mr-3"
+              />
+              <h3 className="font-['Montserrat'] font-bold text-xl">
+                <span className="text-[#0d6efd]">{content.company.name.firstName}</span>{" "}
+                <span className="text-[#f89422]">{content.company.name.lastName}</span>{" "}
+                <span className="text-[#f89422]">{content.company.name.group}</span>
+              </h3>
+            </div>
             <p className="text-gray-300 mb-4">
               {content.company.description}
             </p>

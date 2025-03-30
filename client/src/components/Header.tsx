@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
+import beaverLogo from "../assets/beaver.png";
 
 interface HeaderProps {
   content: {
@@ -27,13 +28,20 @@ export default function Header({ content, isEnglish }: HeaderProps) {
       <div className="container mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           {/* Logo and Title */}
-          <div>
-            <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
-              <span className="text-[#0d6efd]">{content.title.firstName}</span>{" "}
-              <span className="text-[#f89422]">{content.title.lastName}</span>
-            </h1>
-            <p className="text-[#f89422] text-xl">{content.title.group}</p>
-            <p className="text-gray-300 text-lg">{content.title.groupEn}</p>
+          <div className="flex items-center">
+            <img 
+              src={beaverLogo} 
+              alt="Beaver Logo" 
+              className="h-16 w-16 mr-3"
+            />
+            <div>
+              <h1 className="font-['Montserrat'] font-bold text-3xl md:text-4xl">
+                <span className="text-[#0d6efd]">{content.title.firstName}</span>{" "}
+                <span className="text-[#f89422]">{content.title.lastName}</span>
+              </h1>
+              <p className="text-[#f89422] text-xl">{content.title.group}</p>
+              <p className="text-gray-300 text-lg">{content.title.groupEn}</p>
+            </div>
           </div>
 
           {/* Navigation and Language Toggle */}
