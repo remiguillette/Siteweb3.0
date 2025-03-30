@@ -8,8 +8,8 @@ export default function SanteSSTPage() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        groupFr="Service en Santé sécurité au Travail SST"
-        groupEn="Occupational Health and Safety (OHS) Services"
+        groupFr="Santé et Sécurité au Travail SST"
+        groupEn="Occupational Health and Safety (OHS)"
         isEnglish={false}
         homePath="/"
         homeLabel="Accueil"
@@ -23,8 +23,8 @@ export default function SanteSSTPage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
-                <span className="text-[#0d6efd]">Service en</span>{" "}
-                <span className="text-[#f89422]">Santé et Sécurité</span>{" "}
+                <span className="text-[#0d6efd]">Santé</span>{" "}
+                <span className="text-[#f89422]">et Sécurité</span>{" "}
                 <span className="text-[#f89422]">au Travail (SST)</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">

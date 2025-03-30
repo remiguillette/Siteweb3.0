@@ -25,7 +25,7 @@ export default function DivisionHeader({
   languageLabel
 }: DivisionHeaderProps) {
   return (
-    <header className="py-4 bg-[#212529] border-b border-[#f89422]">
+    <header className="py-4 bg-black">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 

@@ -8,8 +8,8 @@ export default function OHSService() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        groupFr="Service en Santé sécurité au Travail SST"
-        groupEn="Occupational Health and Safety (OHS) Services"
+        groupFr="Santé et Sécurité au Travail SST"
+        groupEn="Occupational Health and Safety (OHS)"
         isEnglish={true}
         homePath="/eng"
         homeLabel="Home"
@@ -25,7 +25,7 @@ export default function OHSService() {
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
                 <span className="text-[#0d6efd]">Occupational</span>{" "}
                 <span className="text-[#f89422]">Health &</span>{" "}
-                <span className="text-[#f89422]">Safety Services</span>
+                <span className="text-[#f89422]">Safety</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
                 Our team of Occupational Health and Safety (OHS) experts helps companies 

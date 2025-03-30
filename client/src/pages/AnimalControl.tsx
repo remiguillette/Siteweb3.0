@@ -8,8 +8,8 @@ export default function AnimalControl() {
       <DivisionHeader 
         firstName="Rémi"
         lastName="Guillette"
-        groupFr="Service de contrôle Animalier"
-        groupEn="Animal Control Services"
+        groupFr="Contrôle Animalier"
+        groupEn="Animal Control"
         isEnglish={true}
         homePath="/eng"
         homeLabel="Home"
@@ -24,8 +24,7 @@ export default function AnimalControl() {
             <div className="flex flex-col items-center text-center">
               <h2 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">
                 <span className="text-[#0d6efd]">Animal</span>{" "}
-                <span className="text-[#f89422]">Control</span>{" "}
-                <span className="text-[#f89422]">Services</span>
+                <span className="text-[#f89422]">Control</span>
               </h2>
               <p className="text-[#f89422] text-lg mb-8 max-w-2xl">
                 Our animal control service is committed to ensuring public safety and animal welfare 
@@ -54,7 +53,7 @@ export default function AnimalControl() {
         <section id="services" className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
-              <span className="text-[#f89422]">Our Animal Control Services</span>
+              <span className="text-[#f89422]">Our Services</span>
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
