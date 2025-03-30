@@ -32,20 +32,7 @@ export default function SanteSSTPage() {
                 à créer des environnements de travail sûrs, à respecter les normes réglementaires 
                 et à promouvoir le bien-être des employés.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a 
-                  href="#contact" 
-                  className="px-6 py-3 bg-[#f89422] text-black rounded-md hover:bg-opacity-90 transition"
-                >
-                  Contactez-nous
-                </a>
-                <a 
-                  href="#services" 
-                  className="px-6 py-3 bg-transparent border border-[#f89422] text-[#f89422] rounded-md hover:bg-[#f89422] hover:text-black transition"
-                >
-                  Nos services
-                </a>
-              </div>
+
             </div>
           </div>
         </section>
@@ -54,7 +41,7 @@ export default function SanteSSTPage() {
         <section id="services" className="py-16 bg-black">
           <div className="container mx-auto px-4">
             <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-12 text-center">
-              <span className="text-[#f89422]">Nos services en SST</span>
+              <span className="text-[#f89422]">Nos services</span>
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
